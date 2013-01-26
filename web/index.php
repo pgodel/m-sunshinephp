@@ -2,9 +2,8 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-
 $app = new Silex\Application();
-$app['debug'] = true;
+//$app['debug'] = true;
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__ . '/../views',
@@ -12,18 +11,17 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 $app->get('/', function () use ($app)
 {
-
-    $data = \Symfony\Component\Yaml\Yaml::parse(__DIR__.'/../config/data.yml');
+    $data = \Symfony\Component\Yaml\Yaml::parse(__DIR__ . '/../config/data.yml');
 
     ksort($data['speakers']);
 
     $data['talks'] = array();
     $i = 0;
-    foreach($data['speakers'] as $name => $sdata) {
-        foreach($sdata['talks'] as $t) {
+    foreach ($data['speakers'] as $name => $sdata) {
+        foreach ($sdata['talks'] as $t) {
             $t['speaker'] = $name;
             $t['avatar'] = $sdata['avatar'];
-            $data['talks'][$t['date'].'.'.$t['time'].'.'.$i++] = $t;
+            $data['talks'][$t['date'] . '.' . $t['time'] . '.' . $i++] = $t;
         }
     }
 
