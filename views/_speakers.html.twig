@@ -9,10 +9,10 @@
             {% for name, s in speakers %}
             <li>
                 <a href="#bio-{{loop.index}}" data-rel="dialog" data-transition="pop">
-                <img src="{{s.avatar}}" />
+                <img src="{{s.avatar}}" alt="{{name}}" />
                 <h3>{{name}}</h3>
                 {% for t in s.talks %}
-                <p>{{t.date}} {{t.time}}: <strong>{{t.title}}</strong></p>
+                <p>{{t.date}} {{t.time}}: <br/> <strong>{{t.title}}</strong></p>
                 {% endfor %}
                 </a>
             </li>
