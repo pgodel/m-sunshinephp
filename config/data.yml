@@ -1,0 +1,398 @@
+speakers:
+  'Anthony Ferrara':
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/anthonyferrara-my_photo.jpeg
+    bio: |
+      Anthony Ferrara is a Senior Architect for NBC Universal, specializing in Object Oriented Design, Application Architecture and Highly Scalable Web Applications. He also has experience in Web Application Security and PHP Internals. He is a contributor to multiple Open Source projects (including PHP core), as well as the PHP community as a whole. He is also a former Core Team Member and Development Coordinator for the Joomla! project, as well as a former leader of its Security team. You can follow his blog at blog.ircmaxell.com or on Twitter at @ircmaxell.
+    talks:
+      -
+        title: Cryptography for the Average Developer
+        date: Saturday
+        time: 16:00 – 17:00
+        desc: |
+         Every developer at one point or another needs to implement some form of cryptography in one of their applications. Whether it’s hashing passwords or encrypting sensitive user data, the security requirements are daunting. Yet you don’t need to be an expert in cryptography to implement it correctly. All you need to do is understand the basics, and trust the experts.
+         In this talk, we’ll take a look at some of the basic concepts of cryptography and how to implement them in PHP. Additionally, we’ll discuss the common problems that developers face and how best to solve them. Finally,  we’ll dispel some of the myths and rumors around password hashing and how (and more importantly why) to do it properly.
+
+  'Ben Longden':
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/Ben_longden-150x150.jpg
+    bio: |
+      Ben is technical assurance manager at Inviqa (Sheffield). He has many years of professional experience in a variety of programming languages including C, C++, Perl, Python and has been working with PHP for the last 6 years. Throughout his career he has worked at a variety of places in different industries; mobile marketing, data, ISP and in professional services all of which has given him diverse experience of software engineering in different fields.
+      Outside of work he is a father, and with what little spare time he has left he can be found hacking one of his own projects (lots of ideas, not enough time!), playing on his PS3, or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk.
+
+
+    talks:
+      -
+        title: Silex, the Microframework
+        date: Friday
+        time: 16:00 – 17:00
+        desc: |
+          Standing on the shoulders of giants, Silex is a micro framework built on top of Symfony2 components.  It provides an ideal environment for throwing together a simple, single file application.  We’ll look at a real example of installing and setting up Silex and creating our first application with full dependency injection, templating and all the other features that you would expect of a modern day PHP framework. This session is recommended for anyone looking to break into the Symfony ecosystem with a simple introduction to a small framework build upon the core components of it’s bigger brother.
+
+
+
+  'Bernhard Schussek':
+    bio: Bernhard is a software developer who’s passionate about Symfony since the early days. He is fascinated by simple software architectures that solve complex problems. Besides studying a Master in Software Engineering at Vienna University of Technology, Bernhard is a member of the Symfony2 core development team and lead developer of the Form and Validator component.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/bernhardschussek-150x150.jpg
+    talks:
+      -
+        title: Handling Forms Like a Ninja with Symfony2
+        date: Saturday
+        time: 13:30 – 14:30
+        desc: |
+          Forms are the key elements of web applications, but they are also a major source of frustration. Again and again you find yourself writing the same code for validation, date handling or complex form widgets. Isn’t there a way to simplify this? If I did it once, why isn’t there a simple way to do it again? Enter Symfony2′s form component, your master of reusability. This talk will show how to use its powerful architecture and its stunning simplicity to stop the frustration and start handling forms like a ninja.
+
+
+
+  'Beth Tucker Long':
+    bio: Elizabeth Tucker Long is the Editor-In-Chief of php|architect magazine as well as a trainer and occasional guest blogger for php|architect. She also runs Treeline Design, a web development company, and Playlist Event Music, a DJ company, along with her husband, Chris, and son, Liam.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/beth_tucker_long.jpeg
+    talks:
+      -
+        title: Continuous Integration in Real Life
+        date: Friday
+        time: 10:15 - 11:15
+        desc: |
+          Continuous integration is a big picture idea for big projects, but what if your projects and pictures aren’t big? Is continuous integration worthwhile for every day projects? Learn more about what continuous integration actually is, what tools are available to help you implement it, and how you can make it work for you, even in the small stuff.
+
+  'Brian Fenton':
+    bio: PHP developer for 6 years in the Midwest and the Bay Area. Focused on testable code and design principles. Currently work for Mashery, a leading API management company.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/Fenton_-Brian-150x150.jpeg
+    talks:
+      -
+        title: Bringing Good Design to the Table
+        date: Saturday
+        time: 14:45 – 15:45
+        desc: Many databases begin life with simple tables or even with tables imported from Excel or Access. Over time they can grow more complex and problems appear like inconsistent data, poor performance or orphan records. In this talk we’ll cover principles of database design and normalization. We’ll look at common design mistakes and how to avoid or fix them using a set of example tables.
+
+
+  'Cal Evans':
+    bio: |
+      For the past 13 years Cal has worked with PHP and MySQL on Linux, OSX, and Windows. He has built a variety of projects ranging in size from simple web pages to multi-million dollar web applications. When not banging his head on his monitor, attempting a blood sacrifice to get a particular piece of code working, he enjoys building and managing development teams using his widely imitated but never patented management style of “management by wandering around”.
+
+      These days, when not working with PHP, Cal can be found working on a variety of projects, most of which require a higher security clearance than you have so they can’t be listed here.
+
+      Cal is happily married to wife 1.28, the lovely and talented Kathy. Together they have 2 wonderful kids who were both smart enough not to pursue a job in IT.
+
+    avatar: https://twimg0-a.akamaihd.net/profile_images/1376139884/cal_dpc11_reallysmall_bigger.png
+    talks:
+      -
+        title: 2nd Day Keynote Topic: !Normal==Awesome!
+        date: Saturday
+        time: 09:00 – 10:00
+        desc: !Normal==Awesome!
+
+  'Corey Ballou':
+    bio: Corey Ballou is the co-organizer of the Queen City PHP meetup group in Charlotte, NC. He’s recently made the jump to becoming an independent contractor and runs Craft Blue web development. He’s an avid blogger, open source contributor, beer lover, startup advocate, and homebrewer.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/corey_ballou-150x150.jpeg
+    talks:
+      -
+        title: Creating Realtime Applications with PHP and Websockets
+        date: Saturday
+        time: 11:30 – 12:30
+        desc: In this presentation we will overview the latest WebSockets spec before jumping into several interactive demos of increasing complexity utilizing the open source Ratchet library provided by React PHP.
+
+
+  'Cory Fowler':
+    bio: Cory Fowler is a Windows Azure Technical Evangelist focused on running PHP applications on Windows Azure. His skills and experience, however, are not confined to PHP and Windows Azure. Cory’s expertise in the private sector earned him the status of First Windows Azure MVP in Canada, as well as being a member of inaugural Windows Azure MVP group worldwide. Cory takes great pride in being both Canadian and a Ginger. You can find Cory on Twitter under the handle @SyntaxC4 or read up on Windows Azure and other insightful things on his blog, http://blog.syntaxc4.net.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/cory_fowler-150x150.png
+    talks:
+      -
+        title: Quickly Building and Deploying PHP Applications in the Cloud
+        date: Saturday
+        time: 13:30 – 14:30
+        desc: Join Cory Fowler as he shows off how to quickly deploy applications to the cloud using the tools you know and love today. If you are a Startup, Web Agency or a Consultant this is a must attend presentation to understand how you can utilize the cloud in your Solutions. Cory will use PHP, MySQL, Git, Composer and a Message Queue to deliver a very interactive demo filled presentation.
+
+  'Davey Shafik':
+    bio: |
+      Davey Shafik is a full time PHP Developer with 12 years experience in PHP and related technologies. An Engineer for Engine Yard for the Orchestra PHP Platform, he has written three books (so far!), numerous articles and spoken at conferences the globe over. He lives in Central Florida with his wife, son and two cats.
+
+      Davey is best known for his books, the Zend PHP 5 Certification Study Guide and PHP Master: Write Cutting Edge Code, and as the originator of PHP Archive (PHAR) for PHP 5.3.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/davey_shafik-150x150.jpeg
+    talks:
+      -
+        title: PHP 5.4: The New Bits
+        date: Friday
+        time: 13:30 – 14:30
+        desc: PHP 5.4 was recently unleashed into the world; bringing some of the most exciting changes to the PHP language to date. Learn about traits, array dereferencing, indirect method calls using array callback syntax and improvements to closures and streams.
+
+
+  'David Buchmann':
+    bio: David Buchmann works at Liip AG as project lead and Symfony coach. He is one of the core developers of the Jackalope implementation of PHPCR and working hard to make the Symfony Content Management Framework happen. When he is not coding, he enjoys travelling with his girlfriend, music and boardgames.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/davidbuchmann-150x150.jpg
+    talks:
+      -
+        title: Symfony2 Introduction
+        date: Friday
+        time: 10:15 - 11:15
+        desc: Symfony2 is a powerful and very flexible framework to build web applications. It is built on top of PHP 5.3 and leverages namespaces to build clean applications. In this talk, I will give an introduction to what Symfony2 is and how it can be used.
+
+      -
+        title: Step By Step: Making a Website Fly with Assetic, Varnish and ESI
+        date: Saturday
+        time: 10:15 – 11:15
+        desc: Starting with a demo web site that is not optimized, I will demonstrate step by step how the user experience can be improved. I will show how to improve javascript and css loading and how to use the caching proxy Varnish with Edge Side Includes (ESI) to cache personalized pages.
+
+  'Dustin Whittle':
+    bio: Dustin is a partner at Sensio Labs and developer advocate for Symfony based in San Francisco, California. He was an early contributor to Symfony and has lead the deployment of some of the most popular Symfony sites like Delicious and Yahoo! Answers.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/dustinwhittle_professional-150x150.jpg
+    talks:
+      -
+        title: Symfony2 + EmberJS for Fun and Profit
+        date: Friday
+        time: 13:30 – 14:30
+        desc: Symfony2 is a rock solid foundation for PHP. EmberJs is a rock solid foundation for Javascript. What happens when you combine the power of the best available frameworks for PHP and Javascript? We will create a simple JSON API and pair it with a rich UI using the best tools available. Join this session and find out how to develop powerful applications with Symfony2 + EmberJS.
+
+
+  'Evan Coury':
+    bio: Evan Coury is a core contributor and long-time user of Zend Framework who is perhaps most well known in the community for authoring the all-new ZF2 module system. He is currently a professional software architect and indepdenent consultant. As a strong proponent of free, open source software, Evan is currently leading the development of a new open source e-commerce project based on ZF2. In addition to consulting and his open source contributions, Evan is also the owner of the privately held company, MediaTech Designs, LLC and the successful SMSCloud.com international SMS gateway.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/evancoury-gravatar-150x150.jpeg
+    talks:
+      -
+        title: Introduction to Modules in Zend Framework 2
+        date: Friday
+        time: 11:30 - 12:30
+        desc: One of the highly anticipated new features of the upcoming Zend Framework 2.0 release is the introduction of an all new and powerful approach to modules. This new module system has been designed with flexibility, simplicity, performance, and re-usability in mind. Modules in ZF2 can contain just about anything: PHP code, including MVC functionality; library code; view scripts; and/or public assets such as images, CSS, and JavaScript. With compelling features such native, best-in-class Phar packaging support and event-driven design, the possibilities are truly endless. Join Evan Coury, the author of the new ZF2 module system, as he explains everything ZF2 modules have to offer.
+
+
+  'Fabien Potencier':
+    bio: |
+      Fabien Potencier discovered the Web in 1994, at a time when connecting to the Internet was still associated with the harmful strident sounds of a modem. Being a developer by passion, he constantly looks for better ways to build websites and he founded the Symfony project in 2004 to fullfill this goal.
+
+      Fabien is a serial-entrepreneur, and among other companies, he created Sensio in 1998, a software company that provides products, services, and technical support for the Open-Source Symfony framework.
+
+      Fabien is also the creator of several other Open-Source projects, a writer, a blogger, a speaker at international conferences, and a happy father of two wonderful kids.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/fabien_potencier-150x150.jpeg
+    talks:
+      -
+        title: Dream, Experiment, Create, and Share
+        date: Saturday
+        time: 11:30 – 12:30
+        desc: The Internet changes the world one industry at a time thanks to Open-Source software and, of course, thanks to a lot of passionate hackers. What does it mean for web developers? Join Fabien as he shows why being a web developer cannot just be a “regular” job. Great developers are passionate, great developers are curious, great developers collaborate.
+
+
+  'Hugo Hamon':
+    bio: Hugo Hamon is a PHP and Symfony fan who has worked with PHP since 2003. After five years of professional PHP web development in web agencies for famous French customers, he now works as a consultant and head of training at SensioLabs. In his free time, Hugo contributes to the Symfony2 project (source code and documentation) and gets involved in the French PHP association as an organization member. Hugo also wrote and contributed to French and English books related to PHP and the Symfony framework.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/hugohamon-150x150.jpg
+    talks:
+      -
+        title: Bringing Symfony Components into Your Legacy Code
+        date: Saturday
+        time: 10:15 – 11:15
+        desc: The same question comes every time when dealing with legacy code: shall we maintain or rewrite the whole application? Tough decision to take! Maintaining the legacy code or rewriting it from scratch may cost lots of money… Another solution would be to migrate the code from step to step by introducing new valuable pieces of software like Drupal does for their upcoming major release. This talk will explain how you can take benefit from famous Symfony2 standalone components to empower and modernize your legacy code. Reusing well known and tested Symfony components will also guarantee a smooth learning curve and the support from the biggest PHP developers community.
+
+
+  'Javier Equiluz':
+    bio: A professional trainer and speaker focused on web development and other related technologies. He’s also a Symfony enthusiast: He founded the www.symfony.es website and published the first Symfony2 book in the world (details: www.symfony.es/libro), he is also the co-organizer of the second biggest Symfony conference (www.desymfony.com) and regularly posts on the official Symfony blog.
+    avatar: https://twimg0-a.akamaihd.net/profile_images/1616936371/avatar_bigger.png
+    talks:
+      -
+        title: Twig Tips and Tricks
+        date: Friday
+        time: 11:30 - 12:30
+        desc: Twig is the best template language for PHP. It embraces all the modern best practices for web development and it’s easy to learn, fast, secure, fun, compelling and web designers friendly. The talk will focus on the tips and tricks to get the most out of Twig. Its  contents are divided into small snippets of code with an increasing difficulty level.
+
+
+  'Jeff Carouth':
+    bio: Jeff Carouth is a web application developer honing his programming and skiing skills at Liftopia. He is an active member of the PHP community, speaker, and co-organizer of BCSPHP. He believes quality code, testing, and automation are necessary ingredients in a recipe for a successful software project. When not hacking away at code he is a father and husband, beer and Scotch enthusiast, and an amateur photographer.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/JeffCarouthHeadshot2012-150x150.jpg
+    talks:
+      -
+        title: Introducing Tests in Legacy PHP Applications
+        date: Saturday
+        time: 14:45 – 15:45
+        desc: You know testing is beneficial to your project. You are familiar with merits and caveats of test-driven development. But the project you’re hacking on right now is what most would call a legacy application. How do you apply your test knowledge to an application that doesn’t lend itself to traditional unit testing? The answer most will give is, “you don’t,” but we’re going to look at ways to write tests now that will allow you to improve and refactor your application to evolve the code to a more manageable state. The traditional “easy” route to dealing with legacy code is to rewrite but a little patience and skill applied to writing tests will yeild better results.
+
+
+  'Jeremy Mikola':
+    bio: Jeremy Mikola is a software engineer at 10gen’s NYC office. As a member of the driver and evangelism team, he helps develop the PHP driver and contributes to various OSS projects, such as Doctrine MongoDB ODM, Symfony2 and Zend Framework. Before joining 10gen in May 2012, Jeremy worked with MongoDB for a few years at OpenSky and Exercise.com.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/jeremy_mikola1-150x150.jpg
+    talks:
+      -
+        title: DOs and DON’Ts of MongoDB
+        date: Saturday
+        time: 13:30 – 14:30
+        desc: There are no “best practices” without “worst practices”. When it comes to databases, this may include any number of things ranging between blindly trusting an ORM to never devising a backup/restore strategy; MongoDB is no exception. In this presentation, we’ll walk through various use cases for MongoDB and cover topics such as schema design, querying, operations and methods of data aggregation. Tips and caveats will be sprinkled throughout the session as we look at DOs and DON’Ts realized over three years of using MongoDB on several projects.
+
+
+  'Jonathan Wage':
+    bio: Director of Technology at OpenSky.com and long time contributor to the Doctrine and Symfony projects.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/jonathan_wage-150x150.jpeg
+    talks:
+      -
+        title: Building OpenSky with Symfony2
+        date: Friday
+        time: 14:45 – 15:45
+        desc: OpenSky was an early adopter of the Symfony2 framework. Over 2 years have passed and we’ve experienced just about everything you could imagine. Join me and hear about our experiences using Symfony2 in a large production environment and in a lean startup environment.
+
+
+  'Jordi Boggiano':
+    bio: Jordi Boggiano is the author of a few open source apps/libs (Composer, Monolog, php-console, ..), and frequent contributor to other OSS projects (Symfony2, Twig and others). He has been involved in web development for about 10 years, working mostly with PHP and JavaScript, and is currently doing Symfony2 consulting and application development at Nelmio. Find out more on http://nelm.io/jordi.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/jordi-boggiano-avatar-med-sq-150x150.jpg
+    talks:
+      -
+        title: Dependency Management with Composer
+        date: Saturday
+        time: 16:00 – 17:00
+        desc: Composer is a new PHP dependency manager. It resolves and downloads the packages your project requires. In this session you will learn how to use Composer to easily manage the libraries and other packages you use. We will go through the basics of dependency management and then move on toward publishing your own packages, be it open source ones or closed company code that is used by multiple projects.
+
+
+  'Juozas Kaziukenas':
+    bio: Juozas, or as everyone calls him Joe, is an experienced and talented (some say) young professional, entrepreneur and evangelist. Focusing on bringing IT solutions to non-technical businesses, like retail, he works on optimizing their processes and using cutting-edge research to solve hard problems and grow sales. When not working, Joe finds time to contribute to open-source projects and movements to improve interoperability and platform independence. His hands-on practice with collection of different technologies, programming languages and environments allows him to deliver unbiased and practical presentations in all kind of different topics.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/Juozas-joe-kaziukenas_profile5-150x150.jpg
+    talks:
+      -
+        title: Virtualized Development
+        date: Saturday
+        time: 11:30 – 12:30
+        desc: Setting up a LAMP environment might be the first thing you learn, but I’m going to argue that setting up LAMP on your laptop is hardly the best way to work. Using virtualization and automation tools you can simplify the process and also have better control of what your colleagues are using and even what’s running in production. Plus a ton more awesome features you get for free. This is going to open your eyes a bit, I hope.
+
+
+  'Keith Casey':
+    bio: Keith Casey currently serves as a Developer Evangelist for Twilio to get good tools to good developers so they can build great things. Previously, he built large-scale PHP-based systems for organizations ranging from major news companies to small non-profits. In his spare time, he is a core contributor to web2project, works to build and support the Austin tech community, lives and breathes creative API hackery, blogs occasionally at CaseySoftware.com and is completely fascinated by monkeys.
+
+    avatar: https://twimg0-a.akamaihd.net/profile_images/1768863863/casey_keith_cool_bigger.jpg
+    talks:
+      -
+        title: Closing - Outside the Bubble
+        date: Saturday
+        time: 17:00 – 18:00
+        desc: Outside the Bubble
+
+  'Kris Wallsmith':
+    bio: Symfony Guru and Lead Architect and OpenSky, lead developer of Assetic and Buzz, long-time contributor to Symfony. Kris likes playing soccer and thinking about programming when he’s not supposed to.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/kris_wallsmith-150x150.jpeg
+    talks:
+      -
+        title: How Kris Writes Symfony Apps
+        date: Saturday
+        time: 14:45 – 15:45
+        desc: You’ve seen Kris’ open source libraries, but how does he tackle coding out an application? Walk through green fields with a Symfony expert as he takes his latest “next big thing” idea from the first line of code to a functional prototype. Learn design patterns and principles to guide your way in organizing your own code and take home some practical examples to kickstart your next project.
+
+
+  'Ligaya Turmelle':
+    bio: Ligaya Turmelle is a full time Goddess, part time MySQL DBA, occasional PHP programmer, and frequent world traveler. She currently has visited or lived in 18 countries and now resides in Florida with her husband, daughter and their 2 Belgian Malinois. As a MySQL Support Engineer for Oracle she still manages to stay actively involved with the PHP Community as a founding Principle of phpwomen.org, blogger and long-time busy body of the PHPCommunity channel (#phpc) on freenode. She hopes to one day actually meet all the people she talks to. Now for all the letters – ZCE (PHP4&5), CMDBA, CMDEV, MySQL Core and Oracle ACE for MySQL.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/ligaya-me-150x150.jpg
+    talks:
+      -
+        title: Replication with MySQL
+        date: Saturday
+        time: 10:15 – 11:15
+        desc: Come with me as we learn all we need to know about replication. MySQL Replication is one of the “standard” tools used for a web sites high availability and scaling needs.  We will discuss how replication works, the difference between the various types of  replication (RBR, SBR, Mixed Mode), how to set it up and more.
+
+
+  'Luke Stokes':
+    bio: Co-Founder, CTO, and Lead Developer of FoxyCart.com. Doing my best to live life on purpose, be a husband to my wife, and a father to my children. What I lack in intelligence, I try to make up with passion.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/luke-stokes_port_square-150x150.jpg
+    talks:
+      -
+        title: From POX to HATEOAS, Our Companies Journey to Build a Hypermedia API
+        date: Friday
+        time: 16:00 – 17:00
+        desc: We started FoxyCart.com in 2007 and soon after slapped together some XML and called it an API. As our customer base grew and third-party integrations emerged, the need for a true REST API became a priority. Beginning in 2012, we started researching best practices for modern API development. This talk will tell the story of that research and 10-months of development that followed. You’ll get a look at the HAL hypermedia format along with some best practices we came up with for our problem domain of exposing our entire admin interface. We’ll cover a lot. You may need a seat belt.
+
+
+  'Mark Brown':
+    bio: Mark is the Community Guy for Windows Azure at Microsoft. Mark has been a web developer since 1995 and has built sites on everything from Classic ASP, Java, PHP and ASP.NET.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/mark_brown-150x150.jpg
+    talks:
+      -
+        title: Overview of Windows Azure for PHP Developers
+        date: Friday
+        time: 16:00 – 17:00
+        desc: Windows Azure is Microsoft’s public cloud platform and provides PHP developers many choices for hosting PHP applications in the cloud. In this session Mark will talk about the features that matter most including Azure Websites, Virtual Machines, including Linux VM support and a large array of other services you can take advantage of today. Including demos showing building and deploying a website built in PHPStorm on a Mac to Windows Azure Website service using git as well as to a VM running either Windows or Linux.
+
+
+  'Matthew Turland':
+    bio: Matthew Turland has been working with PHP since 2002. He has been both an author and technical editor for php|architect Magazine, spoken at multiple conferences, and is a past contributor to Zend Framework. He holds the PHP 5 and Zend Framework ZCE certifications and is the author of “php|architect’s Guide to Web Scraping with PHP” and co-author of SitePoint’s “PHP Master: Write Cutting-Edge Code.” In his spare time, he likes to bend PHP to his will to scrape web pages and run IRC bots.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/matthewturland-150x150.jpg
+    talks:
+      -
+        title: Database Testing for Fun and Profit
+        date: Friday
+        time: 14:45 – 15:45
+        desc: You’ve built unit tests for your project complete with mock objects for dependencies like database connections. You know that your code is running the right database queries… or do you? Updating your unit tests in tandem with your database schema really isn’t enough. To be certain that the queries executed by your code really work, you need to run them against a real database. Enter database testing. This presentation will introduce you to the Database extension for PHPUnit, the de facto unit testing framework for PHP applications. You’ll learn about everything from generating various types of test data sets to writing tests that prove your code does what you think it does to the database.
+
+
+  'Michael Squires':
+    bio: Sr. Software Engineer at Mashery, Inc. Search nerd. PHP Engineer for over 12 years. PECL extension developer. Zend Certified Engineer in PHP 4, 5, 5.3, ZF.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/michael_squires-150x150.jpg
+    talks:
+      -
+        title: Making Search Easy with ElasticSearch
+        date: Friday
+        time: 10:15 - 11:15
+        desc: Building persistent and scalable search for your web app is easy using ElasticSearch. Learn how to set up indexes and mapping for document types, and search those documents using various PHP libraries, including functionality already included in PHP core.
+
+
+  'Nacho Martin':
+    bio: Nacho Martín has been working with PHP and Symfony for several years. He co-founded the web development agency Limenius and is co-organizer of DeSymfony, the Spanish Symfony Conference. Toughened in many projects of different kinds, he often has nightmares of himself writing code, and therefore he tries to do it well.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/nachomartin-150x150.jpg
+    talks:
+      -
+        title: Symfony and Javascript: Combining the Best of Two Worlds
+        date: Saturday
+        time: 16:00 – 17:00
+        desc: Javascript is an old friend of web developers that has radically changed his face in the last times. We cannot afford anymore to be only “Javascript users”. We must be prepared to combine Symfony and PHP with the new possibilities that Javascript brings to us. Javascript is a language that seems easy to learn but is in fact difficult to master. Furthermore, this technology is very different from PHP with Symfony, from its concurrency model to more human aspects like its ecosystem. In this talk we will show what challenges must face the Symfony developer when integrating this technology. We will also explore how to combine two very different stacks to solve real problems. We will see how does a traditional Symfony project change when we move logic to the client side using frameworks such as Backbone.js, and also how to lean on server-side Javascript with node.js for certain services such as real time notifications.
+
+
+  'Paul M. Jones':
+    bio: Paul is an internationally recognized PHP expert who has worked as everything from junior developer to VP of Engineering in all kinds of organizations (corporate, military, non-profit, educational, medical, and others).  Paul’s latest open-source project is the Aura project for PHP. Among his other accomplishments, Paul is the lead developer of the Solar Framework, and the creator of the Savant template system. He has authored a series of autho ritative benchmarks on dynamic framework performance, and was a founding contributor to the Zend Framework (the DB, DB_Table, and View components). In a previous career, Paul was an intelligence operations specialist for the US Air Force, and enjoys putting .308 holes in targets at 400 yards.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/paul_m_jones-150x150.jpeg
+    talks:
+      -
+        title:  It Was Like That When I Got Here: Steps Toward Modernizing a Legacy Codebase
+        date: Saturday
+        time: 14:45 – 15:45
+        desc: The codebase at work is absolutely terrible. It’s a mess of spaghetti that has been around for years and is and completely untestable. Any time you fix a bug right here, a new bug appears over there. In this talk, Paul explains why the code is so bad, and gives practical steps on how you can start digging your way out of the legacy hole while keeping the system running the whole time.
+
+
+  'Rasmus Lerdorf':
+    bio: Rasmus Lerdorf is known for having gotten the PHP project off the ground in 1995 and has contributed to a number of other open source projects over the years.  He spent 7 years at Yahoo and has since worked for and consulted with various startups. He was born in Greenland, grew up in Denmark and Canada and has a Systems Design engineering degree from the University of Waterloo. You can follow Rasmus on Twitter or find him on Google+.
+
+    avatar: https://twimg0-a.akamaihd.net/profile_images/1844920209/rl_crop-modified_bigger.jpg
+    talks:
+      -
+        title:  Opening Keynote - PHP in 2013
+        date: Friday
+        time:  09:00 – 10:00
+        desc: PHP in 2013
+
+  'Rowan Merewood':
+    bio: Rowan is a software engineer and technical team lead at the Inviqa group. He’s worked commercially with PHP for well over 6 years, dabbling before that in Python, Java, and BASIC if you go back far enough. His work has encompassed everything from tiny in-page scripts through to multi-million pound billing engines using a wide variety of open source technologies. Rowan is based in Sheffield, UK and makes semi-regular treks over to the PHPNW user group meetings and accidentally organises the Sheffield PHP user group. Talk to him about creative cocktails and appalling horror films.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/rmerewood-150x150.jpg
+    talks:
+      -
+        title: From the Ground Up – Coding, Deploying, and Scaling with AWS
+        date: Friday
+        time: 14:45 – 15:45
+        desc: Ten years ago the Amazon Web Services platform was launched and in that time it has dominated and shaped the way cloud computing is viewed. Even after a decade there are still a lot of buzzwords flying around and putting your app in the cloud is often sold as a simple, cure-all solution. So what’s really involved? This talk will give you a hands-on walkthrough of building a PHP application stack in AWS. We’ll start by deploying a simple Silex application to the Elastic Beanstalk and then add in a selection of other AWS services. This is not a theoretical, text-book session – this is real-life configuration with the cool concepts and tricky hacks that involves.
+
+
+  'Sebastian Bergmann':
+    bio: Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares.
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/SebastianBergmann-150x150.jpg
+    talks:
+      -
+        title: PHPUnit Best Practices
+        date: Friday
+        time: 13:30 – 14:30
+        desc: While PHPUnit is not difficult to set up and writing tests with it is easy, you will get better results and save development time if you know the tips and tricks to leverage PHPUnit more effectively. This session, presented by the creator of PHPUnit, teaches best practices you can use to ensure that your unit testing effort is efficiently implemented.
+
+

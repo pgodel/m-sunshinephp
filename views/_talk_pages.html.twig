@@ -1,0 +1,19 @@
+{% for t in talks %}
+<div data-role="page" id="talk-{{loop.index}}">
+
+    <div data-role="header">
+    	<h1>{{t.title}}</h1>
+    </div><!-- /header -->
+
+	<div data-role="content">
+        <h3>{{t.title}}</h3>
+        <p><strong>{{t.speaker}}</strong> -
+        {{t.date}} {{t.time}}</p>
+        <img hspace=10 src="{{t.avatar}}" align="left" />
+        {{t.desc }}
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+{% endfor %}

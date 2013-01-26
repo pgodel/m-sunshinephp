@@ -1,0 +1,22 @@
+{% for name, s in speakers %}
+<div data-role="page" id="bio-{{loop.index}}">
+
+    <div data-role="header">
+    	<h1>{{name}}</h1>
+    </div><!-- /header -->
+
+	<div data-role="content">
+        <img hspace=10 src="{{s.avatar}}" align="left" />
+        {{s.bio}}
+
+        <h2>Talks</h2>
+
+        {% for t in s.talks %}
+        <p>{{t.date}} {{t.time}}:<br/> <strong>{{t.title}}</strong></p>
+        {% endfor %}
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+{% endfor %}

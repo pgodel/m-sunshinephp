@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SunshinePHP 2013 Mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="talks">
+
+    <div data-role="header">
+    	<h1>SunshinePHP 2013 Talks</h1>
+    </div><!-- /header -->
+
+	<div data-role="content">
+        <div style="text-align: center">
+        <img src="http://sunshinephp.com/wp-content/uploads/2012/10/cropped-sunshine_php_logo.png"/>
+        </div>
+        <div data-role="collapsible-set">
+
+            <div data-role="collapsible">
+                <h2>Day 1 - Friday Feb 8th, 2013</h2>
+                {% include "_talks.html.twig" with {'filter': 'Friday'}%}
+
+            </div>
+            <div data-role="collapsible">
+                <h2>Day 2 - Saturday Feb 9th, 2013</h2>
+                {% include "_talks.html.twig" with {'filter': 'Saturday'}%}
+            </div>
+
+
+        </div>
+
+	</div><!-- /content -->
+
+    {% include "_footer.html.twig" %}
+</div><!-- /page -->
+
+
+{% include "_sponsors.html.twig" %}
+{% include "_speakers.html.twig" %}
+{% include "_bio_pages.html.twig" %}
+{% include "_talk_pages.html.twig" %}
+
+</body>
+</html>

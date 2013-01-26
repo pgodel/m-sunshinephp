@@ -1,0 +1,25 @@
+<div data-role="page" id="speakers" data-title="Speakers @ SunshinePHP 2013">
+	<div data-role="header">
+		<h1>Speakers</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+
+        <ul data-role="listview" data-filter="true">
+            {% for name, s in speakers %}
+            <li>
+                <a href="#bio-{{loop.index}}" data-rel="dialog" data-transition="pop">
+                <img src="{{s.avatar}}" />
+                <h3>{{name}}</h3>
+                {% for t in s.talks %}
+                <p>{{t.date}} {{t.time}}: <strong>{{t.title}}</strong></p>
+                {% endfor %}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+	</div><!-- /content -->
+
+    {% include "_footer.html.twig" %}
+</div>

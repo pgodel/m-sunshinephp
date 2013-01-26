@@ -1,0 +1,17 @@
+<ul data-role="listview" data-filter="true">
+    {% set divider = '' %}
+    {% for t in talks if t.date == filter%}
+    {% if divider != t.time %}
+        <li data-role="list-divider">{{t.time}}</li>
+        {% set divider = t.time %}
+    {% endif %}
+    <li>
+       <a href="#talk-{{loop.index}}" data-rel="dialog" data-transition="pop">
+       <img src="{{t.avatar}}" />
+        <h3>{{t.title}}</h3>
+        <p class="ui-li-aside">{{t.time}}</p>
+            <p>{{t.speaker}}</p>
+       </a>
+   </li>
+    {% endfor %}
+</ul>
