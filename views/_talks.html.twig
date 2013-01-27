@@ -6,7 +6,7 @@
         {% set divider = t.time %}
     {% endif %}
     <li>
-       <a href="#talk-{{loop.index}}" data-rel="dialog" data-transition="pop">
+       <a href="#talk-{{t.date}}-{{loop.index}}" data-rel="dialog" data-transition="pop">
         <h3>{{t.title}}</h3>
 
             <p>{{t.speaker}}</p>

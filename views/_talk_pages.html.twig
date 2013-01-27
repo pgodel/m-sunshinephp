@@ -1,5 +1,5 @@
-{% for t in talks %}
-<div data-role="page" id="talk-{{loop.index}}">
+{% for t in talks if t.date == filter %}
+<div data-role="page" id="talk-{{t.date}}-{{loop.index}}">
 
     <div data-role="header">
     	<h1>{{t.title}}</h1>

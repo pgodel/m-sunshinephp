@@ -44,7 +44,8 @@
 {% include "_sponsors.html.twig" %}
 {% include "_speakers.html.twig" %}
 {% include "_bio_pages.html.twig" %}
-{% include "_talk_pages.html.twig" %}
+{% include "_talk_pages.html.twig" with {'filter': 'Friday'} %}
+{% include "_talk_pages.html.twig" with {'filter': 'Saturday'} %}
 
 </body>
 </html>
