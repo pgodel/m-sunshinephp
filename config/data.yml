@@ -327,17 +327,28 @@ speakers:
         desc: You’ve built unit tests for your project complete with mock objects for dependencies like database connections. You know that your code is running the right database queries… or do you? Updating your unit tests in tandem with your database schema really isn’t enough. To be certain that the queries executed by your code really work, you need to run them against a real database. Enter database testing. This presentation will introduce you to the Database extension for PHPUnit, the de facto unit testing framework for PHP applications. You’ll learn about everything from generating various types of test data sets to writing tests that prove your code does what you think it does to the database.
 
 
-  'Michael Squires':
-    bio: Sr. Software Engineer at Mashery, Inc. Search nerd. PHP Engineer for over 12 years. PECL extension developer. Zend Certified Engineer in PHP 4, 5, 5.3, ZF.
+  'Larry Garfield':
+    bio: |
+         Larry Garfield has been building web sites since he was a sophomore in high school, which is longer ago than he’d like to admit. As a freelancer he worked mostly for Chicago-area politicians before graduating to full time consulting with Palantir.net.
 
-    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/michael_squires-150x150.jpg
+         At Palantir, Larry is a Senior Architect and Consultant, developing solutions for medium to large cultural institutions.
+
+         Larry is an active Drupal core contributor, including the principle architect and maintainer of the Drupal 7 database system. For Drupal 8 he is leading the charge to rebuild Drupal’s core code base into a powerful REST framework, leveraging the Symfony2 framework. He also served for four years as a member of the Drupal Association Board of Directors. Larry is a Zend-certified PHP 5 developer with a Master’s degree in Computer Science from DePaul University.
+
+         Larry co-authored “Drupal 7 Module Development” from Packt Publishing, and has also been published numerous times in Drupal Watchdog. He blogs at both http://palantir.net and http://garfieldtech.com.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/larry_garfield-150x150.jpg
     talks:
       -
-        title: Making Search Easy with ElasticSearch
+        title: Functional PHP
         date: Friday
         time: 10:15 - 11:15
-        desc: Building persistent and scalable search for your web app is easy using ElasticSearch. Learn how to set up indexes and mapping for document types, and search those documents using various PHP libraries, including functionality already included in PHP core.
+        desc: |
+            Functional programming. Some see that term and think “functions? You mean procedural programming. I’ve been doing that for years.” Others see it and think “you mean that crazy academic nonsense that no one understands? Pfft!”
 
+            In truth, functional programming is fundamentally an approach to software development, not a particular language or syntax. With PHP 5.3, it is an approach that is now more readily available and powerful than ever before. Even if you’re not writing in Erlang or ML, there is still much to learn from the principles of functional programming to help write better code.
+
+            This session will discuss the history of functional programming and how it compares to other programming paradigms (procedural and object-oriented). We will then delve into how to leverage the concepts and tools in PHP 5.3 to produce more robust code with an “algorithm-first” approach.
 
   'Nacho Martin':
     bio: Nacho Martín has been working with PHP and Symfony for several years. He co-founded the web development agency Limenius and is co-organizer of DeSymfony, the Spanish Symfony Conference. Toughened in many projects of different kinds, he often has nightmares of himself writing code, and therefore he tries to do it well.
