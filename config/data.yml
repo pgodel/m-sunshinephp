@@ -142,8 +142,8 @@ speakers:
     talks:
       -
         title: Symfony2 + EmberJS for Fun and Profit
-        date: Friday
-        time: 13:30 – 14:30
+        date: Saturday
+        time: 16:00 – 17:00
         desc: Symfony2 is a rock solid foundation for PHP. EmberJs is a rock solid foundation for Javascript. What happens when you combine the power of the best available frameworks for PHP and Javascript? We will create a simple JSON API and pair it with a rich UI using the best tools available. Join this session and find out how to develop powerful applications with Symfony2 + EmberJS.
 
 
@@ -240,8 +240,8 @@ speakers:
     talks:
       -
         title: Dependency Management with Composer
-        date: Saturday
-        time: 16:00 – 17:00
+        date: Friday
+        time: 13:30 – 14:30
         desc: Composer is a new PHP dependency manager. It resolves and downloads the packages your project requires. In this session you will learn how to use Composer to easily manage the libraries and other packages you use. We will go through the basics of dependency management and then move on toward publishing your own packages, be it open source ones or closed company code that is used by multiple projects.
 
 
