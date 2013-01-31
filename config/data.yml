@@ -154,7 +154,7 @@ speakers:
       -
         title: Introduction to Modules in Zend Framework 2
         date: Friday
-        time: 11:30 - 12:30
+        time: 11:30 – 12:30
         desc: One of the highly anticipated new features of the upcoming Zend Framework 2.0 release is the introduction of an all new and powerful approach to modules. This new module system has been designed with flexibility, simplicity, performance, and re-usability in mind. Modules in ZF2 can contain just about anything: PHP code, including MVC functionality; library code; view scripts; and/or public assets such as images, CSS, and JavaScript. With compelling features such native, best-in-class Phar packaging support and event-driven design, the possibilities are truly endless. Join Evan Coury, the author of the new ZF2 module system, as he explains everything ZF2 modules have to offer.
 
 
@@ -193,7 +193,7 @@ speakers:
       -
         title: Twig Tips and Tricks
         date: Friday
-        time: 11:30 - 12:30
+        time: 11:30 – 12:30
         desc: Twig is the best template language for PHP. It embraces all the modern best practices for web development and it’s easy to learn, fast, secure, fun, compelling and web designers friendly. The talk will focus on the tips and tricks to get the most out of Twig. Its  contents are divided into small snippets of code with an increasing difficulty level.
 
 
