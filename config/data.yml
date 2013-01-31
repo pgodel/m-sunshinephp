@@ -369,8 +369,8 @@ speakers:
     talks:
       -
         title:  It Was Like That When I Got Here: Steps Toward Modernizing a Legacy Codebase
-        date: Saturday
-        time: 14:45 – 15:45
+        date: Friday
+        time: 11:30 – 12:30
         desc: The codebase at work is absolutely terrible. It’s a mess of spaghetti that has been around for years and is and completely untestable. Any time you fix a bug right here, a new bug appears over there. In this talk, Paul explains why the code is so bad, and gives practical steps on how you can start digging your way out of the legacy hole while keeping the system running the whole time.
 
 
