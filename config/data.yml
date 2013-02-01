@@ -127,7 +127,7 @@ speakers:
         title: Symfony2 Introduction
         date: Friday
         time: 10:15 - 11:15
-        desc: Symfony2 is a powerful and very flexible framework to build web applications. It is built on top of PHP 5.3. This session is for people who don't know Symfony2 yet. It will be a tutorial style talk with lots of demos where i walk you through the first steps of using Symfony2 and introduce you to its most important components.
+        desc: Symfony2 is a powerful and very flexible framework to build web applications. It is built on top of PHP 5.3. This session is for people who don't know Symfony2 yet. It will be a tutorial style talk with lots of demos where I walk you through the first steps of using Symfony2 and introduce you to its most important components.
 
       -
         title: Step By Step: Making a Website Fly with Assetic, Varnish and ESI
