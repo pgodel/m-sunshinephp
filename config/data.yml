@@ -112,7 +112,7 @@ speakers:
     avatar: http://sunshinephp.com/wp-content/uploads/2013/01/davey_shafik-150x150.jpeg
     talks:
       -
-        title: PHP 5.4: The New Bits
+        title: PHP 5.5: The New Bits
         date: Friday
         time: 13:30 – 14:30
         desc: PHP 5.4 was recently unleashed into the world; bringing some of the most exciting changes to the PHP language to date. Learn about traits, array dereferencing, indirect method calls using array callback syntax and improvements to closures and streams.
@@ -204,8 +204,8 @@ speakers:
     talks:
       -
         title: Introducing Tests in Legacy PHP Applications
-        date: Saturday
-        time: 14:45 – 15:45
+        date: Friday
+        time: 13:30 – 14:30
         desc: You know testing is beneficial to your project. You are familiar with merits and caveats of test-driven development. But the project you’re hacking on right now is what most would call a legacy application. How do you apply your test knowledge to an application that doesn’t lend itself to traditional unit testing? The answer most will give is, “you don’t,” but we’re going to look at ways to write tests now that will allow you to improve and refactor your application to evolve the code to a more manageable state. The traditional “easy” route to dealing with legacy code is to rewrite but a little patience and skill applied to writing tests will yeild better results.
 
 
@@ -240,8 +240,8 @@ speakers:
     talks:
       -
         title: Dependency Management with Composer
-        date: Friday
-        time: 13:30 – 14:30
+        date: Saturday
+        time: 14:45 – 15:45
         desc: Composer is a new PHP dependency manager. It resolves and downloads the packages your project requires. In this session you will learn how to use Composer to easily manage the libraries and other packages you use. We will go through the basics of dependency management and then move on toward publishing your own packages, be it open source ones or closed company code that is used by multiple projects.
 
 
