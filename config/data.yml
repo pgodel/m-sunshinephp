@@ -112,7 +112,7 @@ speakers:
     avatar: http://sunshinephp.com/wp-content/uploads/2013/01/davey_shafik-150x150.jpeg
     talks:
       -
-        title: PHP 5.4: The New Bits
+        title: PHP 5.5: The New Bits
         date: Friday
         time: 13:30 – 14:30
         desc: PHP 5.4 was recently unleashed into the world; bringing some of the most exciting changes to the PHP language to date. Learn about traits, array dereferencing, indirect method calls using array callback syntax and improvements to closures and streams.
@@ -127,7 +127,7 @@ speakers:
         title: Symfony2 Introduction
         date: Friday
         time: 10:15 - 11:15
-        desc: Symfony2 is a powerful and very flexible framework to build web applications. It is built on top of PHP 5.3 and leverages namespaces to build clean applications. In this talk, I will give an introduction to what Symfony2 is and how it can be used.
+        desc: Symfony2 is a powerful and very flexible framework to build web applications. It is built on top of PHP 5.3. This session is for people who don't know Symfony2 yet. It will be a tutorial style talk with lots of demos where I walk you through the first steps of using Symfony2 and introduce you to its most important components.
 
       -
         title: Step By Step: Making a Website Fly with Assetic, Varnish and ESI
@@ -142,8 +142,8 @@ speakers:
     talks:
       -
         title: Symfony2 + EmberJS for Fun and Profit
-        date: Friday
-        time: 13:30 – 14:30
+        date: Saturday
+        time: 16:00 – 17:00
         desc: Symfony2 is a rock solid foundation for PHP. EmberJs is a rock solid foundation for Javascript. What happens when you combine the power of the best available frameworks for PHP and Javascript? We will create a simple JSON API and pair it with a rich UI using the best tools available. Join this session and find out how to develop powerful applications with Symfony2 + EmberJS.
 
 
@@ -154,7 +154,7 @@ speakers:
       -
         title: Introduction to Modules in Zend Framework 2
         date: Friday
-        time: 11:30 - 12:30
+        time: 11:30 – 12:30
         desc: One of the highly anticipated new features of the upcoming Zend Framework 2.0 release is the introduction of an all new and powerful approach to modules. This new module system has been designed with flexibility, simplicity, performance, and re-usability in mind. Modules in ZF2 can contain just about anything: PHP code, including MVC functionality; library code; view scripts; and/or public assets such as images, CSS, and JavaScript. With compelling features such native, best-in-class Phar packaging support and event-driven design, the possibilities are truly endless. Join Evan Coury, the author of the new ZF2 module system, as he explains everything ZF2 modules have to offer.
 
 
@@ -193,7 +193,7 @@ speakers:
       -
         title: Twig Tips and Tricks
         date: Friday
-        time: 11:30 - 12:30
+        time: 11:30 – 12:30
         desc: Twig is the best template language for PHP. It embraces all the modern best practices for web development and it’s easy to learn, fast, secure, fun, compelling and web designers friendly. The talk will focus on the tips and tricks to get the most out of Twig. Its  contents are divided into small snippets of code with an increasing difficulty level.
 
 
@@ -204,8 +204,8 @@ speakers:
     talks:
       -
         title: Introducing Tests in Legacy PHP Applications
-        date: Saturday
-        time: 14:45 – 15:45
+        date: Friday
+        time: 13:30 – 14:30
         desc: You know testing is beneficial to your project. You are familiar with merits and caveats of test-driven development. But the project you’re hacking on right now is what most would call a legacy application. How do you apply your test knowledge to an application that doesn’t lend itself to traditional unit testing? The answer most will give is, “you don’t,” but we’re going to look at ways to write tests now that will allow you to improve and refactor your application to evolve the code to a more manageable state. The traditional “easy” route to dealing with legacy code is to rewrite but a little patience and skill applied to writing tests will yeild better results.
 
 
@@ -241,7 +241,7 @@ speakers:
       -
         title: Dependency Management with Composer
         date: Saturday
-        time: 16:00 – 17:00
+        time: 14:45 – 15:45
         desc: Composer is a new PHP dependency manager. It resolves and downloads the packages your project requires. In this session you will learn how to use Composer to easily manage the libraries and other packages you use. We will go through the basics of dependency management and then move on toward publishing your own packages, be it open source ones or closed company code that is used by multiple projects.
 
 
@@ -327,17 +327,28 @@ speakers:
         desc: You’ve built unit tests for your project complete with mock objects for dependencies like database connections. You know that your code is running the right database queries… or do you? Updating your unit tests in tandem with your database schema really isn’t enough. To be certain that the queries executed by your code really work, you need to run them against a real database. Enter database testing. This presentation will introduce you to the Database extension for PHPUnit, the de facto unit testing framework for PHP applications. You’ll learn about everything from generating various types of test data sets to writing tests that prove your code does what you think it does to the database.
 
 
-  'Michael Squires':
-    bio: Sr. Software Engineer at Mashery, Inc. Search nerd. PHP Engineer for over 12 years. PECL extension developer. Zend Certified Engineer in PHP 4, 5, 5.3, ZF.
+  'Larry Garfield':
+    bio: |
+         Larry Garfield has been building web sites since he was a sophomore in high school, which is longer ago than he’d like to admit. As a freelancer he worked mostly for Chicago-area politicians before graduating to full time consulting with Palantir.net.
 
-    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/michael_squires-150x150.jpg
+         At Palantir, Larry is a Senior Architect and Consultant, developing solutions for medium to large cultural institutions.
+
+         Larry is an active Drupal core contributor, including the principle architect and maintainer of the Drupal 7 database system. For Drupal 8 he is leading the charge to rebuild Drupal’s core code base into a powerful REST framework, leveraging the Symfony2 framework. He also served for four years as a member of the Drupal Association Board of Directors. Larry is a Zend-certified PHP 5 developer with a Master’s degree in Computer Science from DePaul University.
+
+         Larry co-authored “Drupal 7 Module Development” from Packt Publishing, and has also been published numerous times in Drupal Watchdog. He blogs at both http://palantir.net and http://garfieldtech.com.
+
+    avatar: http://sunshinephp.com/wp-content/uploads/2013/01/larry_garfield-150x150.jpg
     talks:
       -
-        title: Making Search Easy with ElasticSearch
+        title: Functional PHP
         date: Friday
         time: 10:15 - 11:15
-        desc: Building persistent and scalable search for your web app is easy using ElasticSearch. Learn how to set up indexes and mapping for document types, and search those documents using various PHP libraries, including functionality already included in PHP core.
+        desc: |
+            Functional programming. Some see that term and think “functions? You mean procedural programming. I’ve been doing that for years.” Others see it and think “you mean that crazy academic nonsense that no one understands? Pfft!”
 
+            In truth, functional programming is fundamentally an approach to software development, not a particular language or syntax. With PHP 5.3, it is an approach that is now more readily available and powerful than ever before. Even if you’re not writing in Erlang or ML, there is still much to learn from the principles of functional programming to help write better code.
+
+            This session will discuss the history of functional programming and how it compares to other programming paradigms (procedural and object-oriented). We will then delve into how to leverage the concepts and tools in PHP 5.3 to produce more robust code with an “algorithm-first” approach.
 
   'Nacho Martin':
     bio: Nacho Martín has been working with PHP and Symfony for several years. He co-founded the web development agency Limenius and is co-organizer of DeSymfony, the Spanish Symfony Conference. Toughened in many projects of different kinds, he often has nightmares of himself writing code, and therefore he tries to do it well.
@@ -358,8 +369,8 @@ speakers:
     talks:
       -
         title:  It Was Like That When I Got Here: Steps Toward Modernizing a Legacy Codebase
-        date: Saturday
-        time: 14:45 – 15:45
+        date: Friday
+        time: 11:30 – 12:30
         desc: The codebase at work is absolutely terrible. It’s a mess of spaghetti that has been around for years and is and completely untestable. Any time you fix a bug right here, a new bug appears over there. In this talk, Paul explains why the code is so bad, and gives practical steps on how you can start digging your way out of the legacy hole while keeping the system running the whole time.
 
 
