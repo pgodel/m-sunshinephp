@@ -237,7 +237,7 @@ speakers:
         Lukas lives and breaths open source and ultimate frisbee. He makes regular appearances at conferences around the globe and has left an impression in various parts of the PHP community, not the least of which as co-release-manager for PHP 5.3 and launching wiki.php.net. In recent years he has focused a lot of his attention on Symfony2, especially the CMF initiative. He is also fairly known in database and search circles where he is co-lead of the PHP content repository specification. Oh yeah and he plays a lot of ultimate frisbee :)
     talks:
       -
-        title: Tutorial: RESTing with Symfony2
+        title: 'Tutorial: RESTing with Symfony2'
         room: 'Key Largo #4'
         date: Thursday
         time: 13:00 - 16:00
@@ -264,7 +264,7 @@ speakers:
         desc: |
          Design patterns. They strike fear in the heart of developers. Like wild animals they seem untamable, something best left to the most advanced object oriented developers. But you can master design patterns. I will show you how. Learn about some of the most essential design patterns for PHP developers to know and love, and find out how easy it is to use them in your own application. You’ll have design patterns mastered in no time.
       -
-        title: Tutorial: Design Patterns Workshop
+        title: 'Tutorial: Design Patterns Workshop'
         room: 'Key Biscayne #1 (front)'
         date: Thursday
         time: 13:00 - 16:00
@@ -288,7 +288,7 @@ speakers:
         desc: |
          Nothing is as frustrated as deploying a new release of your web application to find out functionality you had doesn't work anymore. Of course you have all your unit tests in place and you run them through your CI environment, but nothing prepared you to a failing javascript error or a link that doesn't work anymore. Welcome to User Acceptance testing or UAT. Before you start putting real people in front of your application, create macros and export them as PHPUnit test classes. Then run them in an automated way just like your unit tests and hook them into your CI. In this talk I will show you how easy it is to create Selenium macros that can be converted into PHPUnit scripts and run automatically on different virtual machines (VMs) so you can test all different browsers on a diversity of operating systems.
       -
-        title: Tutorial: Improving QA and PHP development projects
+        title: 'Tutorial: Improving QA and PHP development projects'
         room: Grand Ballroom
         date: Thursday
         time: 13:00 - 16:00
@@ -338,7 +338,7 @@ speakers:
         desc: |
          Grab some coffee and let's get your project moving on Symfony2! Since its 2.0 release in 2011, a lot of fantastic tools and best-practices have been built up around Symfony. In this talk, we'll start a real project and learn about some of these tools that can make us dangerous as quickly as possible! Symfony2 lets you write beautiful, maintainable code, and I'll give you 5 tips to do just that while staying aggressive with getting features out the door. RAD!
       -
-        title: Tutorial: Behat, BDD and Selenium in your app
+        title: 'Tutorial: Behat, BDD and Selenium in your app'
         room: Grand Ballroom
         date: Thursday
         time: 09:00 - 12:00
@@ -361,7 +361,7 @@ speakers:
          Quite often we hear people talking about how to write better code, how to build systems better or how to leverage new technologies to produce better software. But how can we objectively quantify whether code is good or if it needs improving? How can we analyze an existing codebase to see what parts need improvement without spending weeks reading through the source code? The answer is provided by static analysis tools like pDepend and PHPLOC. But the results that they produce can be extremely cryptic and hard to understand. From acronyms like NPATH and CRAP to metrics like Cyclomatic Complexity and Fanout, there's a whole treasure trove of information just waiting to be descifered. In this talk, we'll explore some of the tools available for measuring software quality. We'll dive into some of the theory behind the metrics that they analyze while looking at some real world applications of those metrics. We'll also explore how to use these tools to gain valuable insight into legacy codebases. Finally, we'll look into methods to integrate those metrics into your development workflow to help improve the quality of the applications that you build.
 
       -
-        title: Tutorial: Code Review for security
+        title: 'Tutorial: Code Review for security'
         room: 'Key Biscayne #2 (rear)'
         date: Thursday
         time: 09:00 - 12:00
@@ -387,7 +387,7 @@ speakers:
     avatar: http://2014.sunshinephp.com/img/speakers/beth_tucker_long.png
     talks:
       -
-        title: Tutorial: Foundations of PHP
+        title: 'Tutorial: Foundations of PHP'
         room: 'Key Biscayne #1 (front)'
         date: Thursday
         time: 09:00 - 12:00
@@ -443,7 +443,7 @@ speakers:
         desc: Zend Framework 2 provides a lot of great tools and resources to help developers build quality applications. However, a lot of important architectural decisions are still left to the developer. What belongs in the controllers? What’s a service layer and why should you have one? What the %*$# is a model, really? In this session, Evan will lift the fog on all of these concepts, showing you how to use them to create a more maintainable and well architectured ZF2 application, while keeping the technical debt to a minimum.
 
       -
-        title: Tutorial: ZF2 Modules Workshop
+        title: 'Tutorial: ZF2 Modules Workshop'
         room: 'Key Biscayne #2 (rear)'
         date: Thursday
         time: 13:00 - 16:00
@@ -480,7 +480,7 @@ speakers:
     avatar: http://2014.sunshinephp.com/img/speakers/casey_keith.jpg
     talks:
       -
-        title: Continuous Integration in PHP
+        title: 'Tutorial: Continuous Integration in PHP'
         room: 'Key Largo #4'
         date: Thursday
         time: 09:00 - 12:00
