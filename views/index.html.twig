@@ -38,7 +38,7 @@
 
         </div>
 
-        <a href="http://2014.sunshinephp.com/img/hotel_layout.png" data-role="button" data-mini="true">Venue</a>
+        <a href="http://2014.sunshinephp.com/img/hotel_layout.png" data-role="button" data-mini="true">Rooms Layout</a>
         <a href="https://www.google.com/maps/preview/place/Embassy+Suites+Miami+-+International+Airport/@25.8068025,-80.2614783,17z/data=!3m1!4b1!4m2!3m1!1s0x88d9b74b9e3c8f57:0xac57e5b2dd6b0eec?hl=en" data-role="button" data-mini="true">Google Maps</a>
 
 	</div><!-- /content -->
@@ -50,6 +50,7 @@
 {% include "_sponsors.html.twig" %}
 {% include "_speakers.html.twig" %}
 {% include "_bio_pages.html.twig" %}
+{% include "_talk_pages.html.twig" with {'filter': 'Thursday'} %}
 {% include "_talk_pages.html.twig" with {'filter': 'Friday'} %}
 {% include "_talk_pages.html.twig" with {'filter': 'Saturday'} %}
 
