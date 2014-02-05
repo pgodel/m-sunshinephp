@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SunshinePHP 2013 Mobile</title>
+	<title>SunshinePHP 2014 Mobile</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
@@ -21,19 +21,25 @@
         <div data-role="collapsible-set" data-inset="false">
 
             <div data-role="collapsible">
-                <h2>Day 1 - Friday Feb 8th, 2013</h2>
+                <h2>Tutorial Day - Friday Feb 6th, 2014</h2>
+                {% include "_talks.html.twig" with {'filter': 'Thursday'}%}
+
+            </div>
+            <div data-role="collapsible">
+                <h2>Day 1 - Friday Feb 7th, 2014</h2>
                 {% include "_talks.html.twig" with {'filter': 'Friday'}%}
 
             </div>
             <div data-role="collapsible">
-                <h2>Day 2 - Saturday Feb 9th, 2013</h2>
+                <h2>Day 2 - Saturday Feb 8th, 2014</h2>
                 {% include "_talks.html.twig" with {'filter': 'Saturday'}%}
             </div>
 
 
         </div>
 
-        <a href="https://maps.google.com/maps?q=Embassy+Suites+Miami+International&hl=en&sll=25.782408,-80.229458&sspn=0.204964,0.314484&hq=Embassy+Suites+Miami+International&t=m&z=12" data-role="button" data-mini="true">Venue</a>
+        <a href="http://2014.sunshinephp.com/img/hotel_layout.png" data-role="button" data-mini="true">Venue</a>
+        <a href="https://www.google.com/maps/preview/place/Embassy+Suites+Miami+-+International+Airport/@25.8068025,-80.2614783,17z/data=!3m1!4b1!4m2!3m1!1s0x88d9b74b9e3c8f57:0xac57e5b2dd6b0eec?hl=en" data-role="button" data-mini="true">Google Maps</a>
 
 	</div><!-- /content -->
 
