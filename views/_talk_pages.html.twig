@@ -6,12 +6,13 @@
     </div><!-- /header -->
 
 	<div data-role="content">
+        <p> {{t.date}} {{t.time}} - {{ t.room }}</p>
         <h3>{{t.title}}</h3>
-        <p><strong>{{t.speaker}}</strong> -
-        {{t.date}} {{t.time}}</p>
+        <strong>{{t.speaker}}</strong>
+        <p>
         <img hspace=10 src="{{t.avatar}}" align="left" />
         {{t.desc }}
-
+        </p>
 
 	</div><!-- /content -->
 
