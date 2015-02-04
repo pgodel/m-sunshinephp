@@ -21,7 +21,7 @@ speakers:
         title: 'Tutorial: Jump-Start Your Application With AngularJS'
         room: 'Key Biscayne #2 (rear)'
         date: Thursday
-        time: 9:00 - 12:00
+        time: 09:00 - 12:00
         desc: |
          AngularJS is a javascript framework that can help you build applications faster and with less javascript code. However, to use Angular requires a new way of approaching javascript development. Instead of manually binding callbacks to browser events, angular has the concept of applying changes to individual scopes on digest cycles compiled right from the html. What is the benefit of this approach? Have you ever written event callback methods bound to a specific html markup hierarchy only to have the markup change slightly and break your logic? Angular provides an escape from this by using the html markup as a means of binding your logic to the page. When the markup changes, so does your bindings. We will be creating a basic shop application to learn the core concepts of AngularJS: scopes, controllers, services, filters, and directives. Once you get the basics of how Angular works, we will cover more advanced topics such as communication between directives, dependency injection, and performance considerations. Finally, we will cover real-world usage with modern libraries. You will learn how to structure your application to work with RequireJS, bower, grunt, and testing with protractor.. At the end of this tutorial, you will know how to build robust and highly dynamic pages using AngularJS.
 
@@ -37,6 +37,7 @@ speakers:
     avatar: http://2015.sunshinephp.com/img/speakers/daniel_cousineau.jpg
     bio: |
       Daniel is a Senior Engineer for Croscon living in New York City. In his laughably short free time, he co-organizes the QueensJS user group, continues to assist co-orgaizing the Lone Star PHP conference, speaks at conferences, eats way too much souvlaki at the cart down the street. He is Yolo Certified, a cat lover, and despite his last name not Canadian.
+    talks:
       -
         title: Queues And The Giant Beanstalkd
         room: 'Key Biscayne #1 (front)'
@@ -52,14 +53,14 @@ speakers:
     talks:
       -
         title: 'Tutorial: Elephants In The Clouds: Mastering PHP On Heroku'
-        room: Key Largo #4
+        room: 'Key Largo #4'
         date: Thursday
-        time: 9:00 - 12:00
+        time: 09:00 - 12:00
         desc: |
          One of the first cloud platforms around, Heroku helped shaped the form of modern PaaS. Long beyond its Ruby roots, it now supports a multitude of languages, including, most recently PHP. This workshop explores the benefits, characteristics, pitfalls and approaches of the platform, and walks the audience through the preparation and creation of applications, their configuration, and all the best practices and methodologies that will allow them to get the most out of Heroku upon their first deploy, from dependency management over development/production parity to scaling up (and down again). For the brave ones, we'll sprinkle in some advanced Web server configuration, performance tuning and even a round of HHVM and Hack.
       -
         title: The Twelve-Factor App: Best Practices For PHP On Platforms-As-A-Service
-        room: Key Biscayne #2 (rear)
+        room: 'Key Biscayne #2 (rear)'
         date: Friday
         time: 10:15 - 11:15
         desc: |
@@ -127,7 +128,7 @@ speakers:
         title: 'Tutorial: Building Web Service Clients With Guzzle'
         room: Grand Ballroom
         date: Thursday
-        time: 13:00 – 16:00
+        time: 13:00 - 16:00
         desc: |
          Guzzle is a HTTP client library and web service client framework. Learn how to use Guzzle to work with HTTP and web service APIs, and see how Guzzle's simple HTTP abstractions, flexible event system, and asynchronous request capabilities make Guzzle a powerful open source project. We'll get our hands dirty and actually build a web service client using the core Guzzle library (guzzlehttp/guzzle) and its companion guzzlehttp/command and guzzlehttp/guzzle-services packages.
       -
@@ -200,7 +201,7 @@ speakers:
         title: 'Tutorial: Advanced Git Skills'
         room: Grand Ballroom
         date: Thursday
-        time: 9:00 - 12:00
+        time: 09:00 - 12:00
         desc: |
          Get beyond the basics with this practical git session. We'll be covering some useful switches to the commands you know well and looking at how to optimise your configuration to make your day-to-day work easier. We'll look in depth at the concepts of branching, merging, tagging and collaborating with multiple remotes. There will also be guidance on how to make use of the more advanced features such as rebase, rerere and bisect. This is a hands-on session, please bring a laptop with git installed and be prepared to get some serious practice on all these topics. We'll be working in local repositories as well as sharing code and collaborating on changes in GitHub. At the end of the session you will be able to make effective use of git's features, and untangle any git problem with confidence.
       -
@@ -247,7 +248,7 @@ speakers:
         title: 'Tutorial: Your Inner Sysadmin'
         room: 'Key Biscayne #1 (front)'
         date: Thursday
-        time: 9:00 - 12:00
+        time: 09:00 - 12:00
         desc: |
          One thing that most programmers do not take the time to understand is the servers that their application lives on. Most know a smattering of Apache configs, PHP configs, and basic information about the OS. This talk will deal with looking at tools that can help you quickly set up a server and how it can help you be a better developer. We'll look at tools like puppet for server management, OSSEC for log management, different command line tools, and nagios/monit for system monitoring.
       -
@@ -297,7 +298,7 @@ speakers:
         title: 'Tutorial: Workshop: Improving QA on PHP Development Projects'
         room: 'Key Largo #4'
         date: Thursday
-        time: 13:00 – 16:00
+        time: 13:00 - 16:00
         desc: |
          Everyone talks about raising the bar on quality of code, but it's always hard to start implementing it when you have no clue where to start. With this talk I'm shooing that there are many levels developers can improve themselves by using the right tools. In this talk I'll go over each tool with examples how to use them against your codebase. A must attend talk for every developer that wants to scale up their quality. Most PHP developers deploy code that does what the customer requested but they don't have a clue about the quality of the product they deliver. Without this knowledge, maintenance can be a hell and very expensive. In this workshop I cover unit testing, code measuring, performance testing, debugging and profiling and give tips and tricks how to continue after this workshop.
 
@@ -332,7 +333,7 @@ speakers:
         title: REST API Best Practices
         room: 'Key Biscayne #1 (front)'
         date: Saturday
-        time: 17:15 – 18:15
+        time: 11:30 - 12:30
         desc: |
          Let's talk best practices, but more importantly, the ones most people tend NOT to follow. You know, things like doing CRUD correctly, using the correct response codes, or how about that whole hypermedia thing. We'll even take a look at different API specs and data response formats (you know like HAL, JSON-LD, JSON API, etc) before taking a few minutes to answer any specific questions you might have.
 
@@ -403,7 +404,7 @@ speakers:
         title: 'Tutorial: Getting Started With Varnish'
         room: 'Key Biscayne #2 (rear)'
         date: Thursday
-        time: 13:00 – 16:00
+        time: 13:00 - 16:00
         desc: Varnish is attracting an enormous amount of attention in the world of digital media lately and it absolutely has the capacity to revolutionize the way we deliver content. While very simple to install, Varnish’s real capacity lies in the powerful configuration language, VCL. In this tutorial, we’ll walk through the process of installing and configuring Varnish, explore the included VCL and the shared VCL repositories. Finally, we’ll dive in to the VCL itself and learn how to develop custom configurations that handle real-world use cases.
       -
         title: 'TDD: Team-Driven Development'
@@ -431,8 +432,8 @@ speakers:
       -
         title: HHVM Basics
         room: 'Key Biscayne #2 (rear)'
-        date: Friday
-        time: 17:15 - 18:15
+        date: Saturday
+        time: 11:30 - 12:30
         desc: What is HHVM? Why does it matter to the average (or above average) PHP site? What benefits does switching to HHVM offer? These questions and more will be answered in one information packed hour.
 
   'Wim Godden':
@@ -443,7 +444,7 @@ speakers:
         title: 'Tutorial: My App Is Secure...I Think'
         room: 'Key Biscayne #1 (front)'
         date: Thursday
-        time: 13:00 – 16:00
+        time: 13:00 - 16:00
         desc: With more and more sites falling victim to data theft, you've probably read the list of things (not) to do to write secure code. But what else should you do to make sure your code and the rest of your web stack is secure ? In this tutorial we'll go through the basic and more advanced techniques of securing your web and database servers, securing your backend PHP code and your frontend javascript code. We'll also look at how you can build code that detects and blocks intrusion attempts and a bunch of other tips and tricks to make sure your customer data stays secure.
       -
         title: Beyond PHP: It's Not (just) About The Code!
@@ -481,7 +482,7 @@ speakers:
         title: 'Drupal 8: The Crash Course'
         room: Grand Ballroom
         date: Saturday
-        time: 09:00 - 10:00
+        time: 11:30 - 12:30
         desc: |
             One of the most widely-used and mature Content Management Systems on the planet, Drupal runs more than one in fifty websites in the world. However, it has always been something of an odd duck, with an architecture and design very different than anything else in PHP. Enter Drupal 8: Almost a complete rewrite under the hood, Drupal 8 is a modern, PHP 5.4-boasting, REST-capable, object-oriented powerhouse. Now leveraging 3rd party components from no less than 9 different projects, Drupal 8 aims to be the premiere Content Management Platform for PHP. But how do you use all this new-fangled stuff? This session will provide a walkthrough of Drupal's key systems and APIs, intended to give developers a taste of what building with Drupal 8 will be like. Prior familiarity with Drupal 7 is helpful but will not be assumed.
 
@@ -495,7 +496,7 @@ speakers:
         title: Keynote
         room: Grand Ballroom
         date: Saturday
-        time: 9:00 - 10:00
+        time: 09:00 - 10:00
         desc: Same Thing Happens Every Time.
 
   'Rasmus Lerdorf':
@@ -507,7 +508,7 @@ speakers:
         title: Keynote
         room: Grand Ballroom
         date: Friday
-        time: 9:00 - 10:00
+        time: 09:00 - 10:00
         desc: PHP and teams, it's good chemistry!
 
   'Poornima Vijayashanker':
