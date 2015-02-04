@@ -1,549 +1,523 @@
 speakers:
-  'Ilia Alshanetsky':
-    avatar: http://2014.sunshinephp.com/img/speakers/ilia_alshanetsky.jpg
+  'Ben Edmunds':
+    avatar: http://2015.sunshinephp.com/img/speakers/ben_edmunds.jpg
     bio: |
-      lia Alshanetsky is a CTO at Centah Inc., a company specializing in providing solutions for the retail industry. Over the last 10 years Ilia has been heavily involved in development of PHP, as a Core Developer and Release Master, authoring many extensions and language improvements. Ilia is also interested in security and performance, and frequently is writing or speaking on these and other PHP related topics. In his spare time he pretends to be a pro-photographer and engages in various sports. Website: http://ilia.ws
+      CTO of an awesome company you've never heard of by day, hacking on crazy ideas by night. PHP Town Hall podcast co-host. CodeIgniter Steering Committee member. Author. Speaker. Open Source Advocate
     talks:
       -
-        title: Application Logic Security
-        room: 'Key Biscayne #1 (front)'
-        date: Friday
-        time: 14:45 - 15:45
-        desc: |
-         This session will outline security practices and solutions designed to address security issues within application's business and processing logic, which are often overlooked in favour of basic security flaws such as SQL Injection, XSS, etc... The session will focus on how to implement mechanisms for improving data access, avoiding common ACL pitfalls, etc.
-
-  'Josh Broton':
-    avatar: http://2014.sunshinephp.com/img/speakers/josh_broton.png
-    bio: |
-      Josh is a UX manager, front-end dev, design lead, WordPress themer, and conference speaker. He works with VistaComm building awesome websites for their largest clients and at kidblog.org as a front-end developer, re-imagining what a education-centric social network and blogging platform can do for teachers and students. You can find more of what he's doing at joshbroton.com and github.com/joshbroton.
-    talks:
-      -
-        title: Sticks, Spit, and Duct Tape: Advanced Responsive Layout Techniques
-        room: 'Key Biscayne #1 (front)'
-        date: Friday
-        time: 11:30 - 12:30
-        desc: |
-         You've made the decision. You're taking the plunge. It's responsive or bust. But what happens after the first bit of HTML and CSS is on the page? What if plan A doesn't work? HTML/CSS can be a fickle lover, so it's important to know 2 (or even 3) ways to accomplish the task at hand. This hour will be a quick overview of the history of responsive web design, as well as uncovering a plan B, C, and maybe D for your responsive layout.
-
-  'Mark Brown':
-    avatar: http://2014.sunshinephp.com/img/speakers/mark_brown.png
-    bio: |
-      Mark has been a developer since 1991 and a web developer since 1995 building applications for a wide range of Enterprises to dot-com startups. Mark has been with Microsoft since 2000 and has worked on web application security, online mapping and ASP.NET and PHP on Microsoft's Web Platform Team. Currently Mark is the Windows Azure Community Manager and helps developers build applications for the cloud. You can find Mark at many web developer conferences throughout the year and on Twitter at @markjbrown.
-    talks:
-      -
-        title: Opening Keynote
-        room: Grand Ballroom
-        date: Friday
-        time: 09:00 – 10:00
-        desc: |
-         Journey to the Enterprise
-
-  'Ricard Clau':
-    avatar: http://2014.sunshinephp.com/img/speakers/ricard_clau.png
-    bio: |
-      Born and grewn up in sunny Barcelona, Spain. Currently working as Software Engineer at Hailo London (http://www.hailocab.com). PHP Believer, Symfony2 lover, curious about NoSQL, Erlang and Go. Was before backend technical lead at SocialPoint (http://www.socialpoint.es), with one of the biggest Symfony2 projects in the world.
-    talks:
-      -
-        title: Redis Everywhere
-        room: Grand Ballroom
-        date: Saturday
-        time: 17:15 – 18:15
-        desc: |
-         Redis is an extremely fast data structure server that can be easily added to your existing stack and act like a Swiss army knife to help solve many problems that would be extremely difficult to workaround with the traditional RDBMS. This talk will cover an introduction to Redis, how we can use it in our PHP applications and some advanced use cases beyond the most known ones, which are probably Caching and Session Management. There will also be some war stories from my time at SocialPoint, a video gaming company based in Barcelona where Redis is used extensively for projects like DragonCity that has to deal with more than 7 million daily users.
-
-  'John Coggeshall':
-    avatar: http://2014.sunshinephp.com/img/speakers/john_coggeshall.jpg
-    bio: |
-      John Coggeshall is the owner of Internet Technology Solutions, LLC - an Internet and PHP consultancy serving customers worldwide, as well as the owner of CoogleNet - a subscription based WiFi network. As former senior member of Zend Technologies' Global Services team, he got started with PHP in 1997 and is the author of four published books and over 100 articles on PHP technologies with some of the biggest names in the industry such as Sams Publishing, Apress and O'Reilly. John also is a active contributor to the PHP core as the author of the tidy extension, a member of the Zend Education Advisory Board, and frequent speaker at PHP-related conferences worldwide. His web site, http://www.coggeshall.org/ is an excellent resource for any PHP developer and you can follow him on twitter by adding @coogle.
-    talks:
-      -
-        title: Introduction to Zend Framework 2
-        room: Grand Ballroom
-        date: Friday
-        time: 10:15 - 11:15
-        desc: |
-         Zend Framework has become a standard in the PHP world for web application development and it's successor, Zend Framework 2 is even more powerful. However, there have been many changes architecturally to the new framework that even those who are familiar with ZF1 will find hard to understand initially. In this talk we will explore the fundamental concepts of ZF2, both architecture and intent as we build ourselves a simple application.
-
-  'Thijs Feryn':
-    avatar: http://2014.sunshinephp.com/img/speakers/thijs_feryn.png
-    bio: |
-      Thijs is an evangelist at Combell, the top Belgian hoster. As an evangelist he supports communities and has a particular love for the PHP community. He loves code and infrastructure, but mainly focusses on the gap in between. Thijs is also board member of the PHPBenelux user group and organizes the PHPBenelux Conference in January.
-    talks:
-      -
-        title: Vagrant, Puppet and Chef FTW
-        room: 'Key Biscayne #2 (rear)'
-        date: Saturday
-        time: 16:00 – 17:00
-        desc: |
-         Everyone has used the term "but, it works on my machine ..." before and it usually resulted in disaster. Managing your local development environment has always been tricky, especially when you want it to be an exact copy of your production environment. Vagrant tries to solve this problem by offering simple tool for managing lightweight, portable and reproducible development environments. Vagrant is a tool for both individual developers and development teams. This talk will cover the basics of Vagrant and will also cover a brief introduction of configuration management tools like Puppet and Chef to provision your machines. "vagrant up" will be a command you'll learn to love. The target audience for this talk is developers looking for an easy way to manage their development environment and sharing it with team members.
-
-         The main objectives this talk are:
-         * Hassle-free setup of your development environment
-         * Having a portable definition of your environment
-         * Improving collaboration
-         * Tearing down the walls between developers and sysadmins
-         * Avoiding dependency clashes between different projects
-         * Stepping away from one monolithic development environment
-         * Having a replica of production to develop on
-         * Boosting confidence that your code will work once it is deployed
-         * Moving one step closer to continuous delivery
-
-  'Chris Hartjes':
-    avatar: http://2014.sunshinephp.com/img/speakers/chris_hartjes.jpg
-    bio: |
-      Chris Hartjes has been building web applications of all shapes and sizes since 1998, with a focus on best practices and how to use testing as an effective development tool. By day he works as a Principal Engineer for Synacor (http://synacor.com) while by night he works on building programming info-products, playing Magic the Gathering, and watching and playing baseball. He also is one of the organizers of the True North PHP conference. He lives in Milton, Ontario, Canada with his long-suffering wife, two daughters, a furry pig masquerading as a cat, and the reincarnation of the Roman god of the underworld in feline form.
-    talks:
-      -
-        title: Building Testable PHP Applications
+        title: Your API Is Bad And You Should Feel Bad
         room: 'Key Biscayne #2 (rear)'
         date: Friday
         time: 11:30 - 12:30
         desc: |
-         You are ready to start writing tests for your code, but your code isn't ready to be tested. It's a mess and you know it, but you have got work to do and only so much time to go back and rewrite code that is already working...sort of. You want your evenings and weekends back. What if I told you there are a few easy-to-follow rules for creating testable PHP code? Rules that you can incorporate into your workflow RIGHT NOW. Let legendary (in his own mind) grumpy programmer Chris Hartjes show you tips and tricks he has learned to write PHP code that is easy to test and maintain.
+         Do you hate the Facebook API? We all do as well. So stop writing your API in their footsteps. In this talk we will walk through how to construct a RESTful API, what makes an API your users/developers will love, and why you should eat your own dog food with API Driven Development.
 
-  'Jordan Kasper':
-    avatar: http://2014.sunshinephp.com/img/speakers/jordan_kasper.jpg
+  'Chris Saylor':
+    avatar: http://2015.sunshinephp.com/img/speakers/chris_saylor.jpg
     bio: |
-      Shortly after it arrived at his home in 1993, Jordan began disassembling his first computer - his mother was not happy. She breathed more easily when he moved from hardware into programming, starting with BASIC. Jordan's experience includes multiple startups, companies large and small, and one large university. He contributes to a few open source projects and participates in local user groups, barcamps, and hackathons. Jordan's primary mission for over 10 years has been to use JavaScript, HTML, and CSS to elevate web applications above their desktop rivals. He currently works for appendTo, a leader in front-end software solutions, specializing in JavaScript, jQuery, HTML5 and mobile development. In his down time he enjoys puzzles of all sorts and board games. http://jordankasper.com
+      Chris is a lead engineer at Zumba working on the core website utilizing PHP, javascript, MySQL/MongoDB, and a sprinkling of NodeJS. He loves building solutions to complex problems and sharing what he learns. He is the founder of boxmeupapp.com and contributes to his personal blog (blog.chris-saylor.com) as well as to Zumba Tech's blog (tech.zumba.com).
     talks:
       -
-        title: Browser Eyeballing != JavaScript Testing
-        room: 'Key Biscayne #1 (front)'
-        date: Friday
-        time: 16:00 – 17:00
-        desc: |
-         Stop eyeballing your UI in a browser to test your JavaScript code - that doesn't count. While many developers have embraced testing in their server side code using TDD, fewer test their front end JavaScript code in the same way (or in any way), and even fewer of those use any kind of automation. This talk will guide attendees on how to write testable JavaScript code, how to write tests for that code, and some solutions for automating the process. Participants will come out of this talk ready to implement and automate better tests for their JavaScript code.
-
-  'Jonathan Klein':
-    avatar: http://2014.sunshinephp.com/img/speakers/jonathan_klein.jpg
-    bio: |
-      Jonathan is a software engineer at Etsy, where he focuses on solving web performance and scalability challenges. Prior to working at Etsy he spent almost four years at Wayfair, where he led the team that converted the primary tech stack to PHP/Lighttpd/FreeBSD. He started and organizes the Boston Web Performance Meetup Group, and he contributes to a few open source projects, including the HTTPArchive and CSSLint. Jonathan blogs regularly at http://www.jonathanklein.net and can be found on Twitter at @jonathanklein.
-    talks:
-      -
-        title: Profiling PHP with XHProf
-        room: Grand Ballroom
-        date: Friday
-        time: 16:00 – 17:00
-        desc: |
-         Measuring and improving the performance of your PHP application is critical to giving your customers a great experience. To get a realistic view of where the time spent in PHP is actually going, you need to profile your code. XHProf is an open source, low overhead, robust profiling tool for PHP. This talk will explain how to install it, leverage its most important features, and solve the kinds of problems that XHProf can help identify. XHProf has a browser based UI, which makes it extremely easy to use and to share code profiles with coworkers. I will be demoing various traces, talking about PHP micro-optimizations, and showing you how to quickly drill down and find the slowest parts of your site. By using XHProf to identify the big wins, you can spend less time optimizing and more time building new features. You will come away from this talk with a working knowledge of XHProf, and the ability to get it up and running in your environment in minutes.
-
-  'Jeremy Lindblom':
-    avatar: http://2014.sunshinephp.com/img/speakers/jeremy_lindblom.jpeg
-    bio: |
-      Jeremy is a PHP Software Engineer at Amazon Web Services, co-author of the AWS SDK for PHP, co-organizer of the Seattle PHP User Group, member of the Zend Education Advisory Board for the PHP 5.5 exam, contributor to open source PHP projects, keyboardist/vocalist for Gigawattband.com, maker of funny faces, and father of 2.
-    talks:
-      -
-        title: Git educated about git (with song)
+        title: 'Tutorial: Jump-Start Your Application With AngularJS'
         room: 'Key Biscayne #2 (rear)'
-        date: Friday
-        time: 16:00 – 17:00
+        date: Thursday
+        time: 9:00 - 12:00
         desc: |
-         Git is a free, distributed version control system that is fast, easy to learn, and has great features. It has also taken the open source world by storm, especially with services like GitHub. Learn 20 essential Git commands, study some common conventions and workflows, and be prepared for a musical performance to assist you in your Git mastery.
+         AngularJS is a javascript framework that can help you build applications faster and with less javascript code. However, to use Angular requires a new way of approaching javascript development. Instead of manually binding callbacks to browser events, angular has the concept of applying changes to individual scopes on digest cycles compiled right from the html. What is the benefit of this approach? Have you ever written event callback methods bound to a specific html markup hierarchy only to have the markup change slightly and break your logic? Angular provides an escape from this by using the html markup as a means of binding your logic to the page. When the markup changes, so does your bindings. We will be creating a basic shop application to learn the core concepts of AngularJS: scopes, controllers, services, filters, and directives. Once you get the basics of how Angular works, we will cover more advanced topics such as communication between directives, dependency injection, and performance considerations. Finally, we will cover real-world usage with modern libraries. You will learn how to structure your application to work with RequireJS, bower, grunt, and testing with protractor.. At the end of this tutorial, you will know how to build robust and highly dynamic pages using AngularJS.
 
-  'Elizabeth Naramore':
-    avatar: http://2014.sunshinephp.com/img/speakers/elizabeth_naramore.jpg
-    bio: |
-       I am an author, speaker, mentor, and recovering web developer. I currently work on the Community Team at GitHub, and I'm all about looking at new ways to solve old problems.
-    talks:
       -
-        title: Using Github for more than code
+        title: Wrangle Cross-Cutting Concerns With Event Driven Programming
         room: 'Key Biscayne #1 (front)'
         date: Saturday
-        time: 10:15 - 11:15
+        time: 16:00 – 17:00
         desc: |
-         It's no secret that at GitHub, we use GitHub to write the code that runs GitHub. But what you may not know is that we also use GitHub to manage GitHub the company. In this talk, I'll show you practical ways that we use our own system in a non-code context. You'll learn how we track projects and to-do lists, discuss and collaborate on corporate policies, communicate news to a highly distributed company, coordinate events, update and collaborate on internal and external documentation, and even onboard new employees. You'll come away from this talk with a whole new perspective on using GitHub.
+         Event driven programming is becoming essential to many applications and frameworks that can be utilized to make your application more flexible and “plugin” ready. Learn how to effectively use events in applications to reduce code complexity of cross-cutting concerns, how various frameworks implement events and make them available to the developer, and the benefits and drawbacks of utilizing aspect oriented development with real world examples. We will also look at many popular frameworks (Symfony2, CakePHP, Zend, etc) to see how their event architecture is implemented at a bird’s-eye view and how developers can take advantage, including a demo using Symfony2’s dispatcher to illustrate the benefits of event driven design.
 
-  'Matthew Weier O''Phinney':
-    avatar: http://2014.sunshinephp.com/img/speakers/matthew_weier_ophinney.jpg
+  'Daniel Cousineau':
+    avatar: http://2015.sunshinephp.com/img/speakers/daniel_cousineau.jpg
     bio: |
-        Matthew Weier O'Phinney is a Principal Engineer at Zend Technologies, where he also acts in the capacity of Project Lead for Zend Framework and Apigility. Matthew is an advocate of open source software, and has contributed to dozens of projects. When not in front of a computer, you can find him brewing beer, playing games with his family, and romping with the family's Basset Hound.
+      Daniel is a Senior Engineer for Croscon living in New York City. In his laughably short free time, he co-organizes the QueensJS user group, continues to assist co-orgaizing the Lone Star PHP conference, speaks at conferences, eats way too much souvlaki at the cart down the street. He is Yolo Certified, a cat lover, and despite his last name not Canadian.
+      -
+        title: Queues And The Giant Beanstalkd
+        room: 'Key Biscayne #1 (front)'
+        date: Friday
+        time: 16:00 - 17:00
+        desc: |
+         In the modern world of scaling web applications, queues have become a go-to for increasing performance by parallelizing and backgrounding heavy duty tasks. Learn practical usages of queues through beanstalkd.
+
+  'David Zuelke':
+    avatar: http://2015.sunshinephp.com/img/speakers/david_zuelke.jpg
+    bio: |
+      David works at Heroku, a cloud platform as a service headquartered in San Francisco. He was already building applications for the Web when the dot-com bubble burst, and went on to co-own a software consultancy before exploring the e-commerce and Berlin startup scene. Based in Munich, Germany, he is a regular speaker at technology conferences around the world and an avid fan of all things fast or exciting.
     talks:
       -
-        title: Day 2 After-Lunch Keynote
+        title: 'Tutorial: Elephants In The Clouds: Mastering PHP On Heroku'
+        room: Key Largo #4
+        date: Thursday
+        time: 9:00 - 12:00
+        desc: |
+         One of the first cloud platforms around, Heroku helped shaped the form of modern PaaS. Long beyond its Ruby roots, it now supports a multitude of languages, including, most recently PHP. This workshop explores the benefits, characteristics, pitfalls and approaches of the platform, and walks the audience through the preparation and creation of applications, their configuration, and all the best practices and methodologies that will allow them to get the most out of Heroku upon their first deploy, from dependency management over development/production parity to scaling up (and down again). For the brave ones, we'll sprinkle in some advanced Web server configuration, performance tuning and even a round of HHVM and Hack.
+      -
+        title: The Twelve-Factor App: Best Practices For PHP On Platforms-As-A-Service
+        room: Key Biscayne #2 (rear)
+        date: Friday
+        time: 10:15 - 11:15
+        desc: |
+         Horizontal scalability has always been at the core of PHP application design, and in the cloud, that approach shines the brightest. But to fully leverage the power and convenience of PaaS offerings such as Heroku, it's worth following certain best practices and methodologies when developing applications. This presentation covers all the steps from code and dependency management over configuration to maintaining dev/prod environment parity, and will demonstrate just how easy it can be to deploy and scale a PHP application on Heroku.
+
+  'Eric Hogue':
+    avatar: http://2015.sunshinephp.com/img/speakers/eric_hogue.jpg
+    bio: |
+      Eric started developing professionally 10 years ago. He learned PHP in 2005 and have been using it as his main language since then. He has a passion for best practices, especially for testing. And he sometimes write about those things on on his blog.
+    talks:
+      -
+        title: Introduction To Continuous Integration With Jenkins
         room: Grand Ballroom
+        date: Saturday
+        time: 17:15 - 18:15
+        desc: |
+         Continuous Integration allows developers to run tests automatically every time code is pushed to source control. We will look at the different tests that a Continuous Integration server can run. How to create a build script so it runs the tests and make sure it produces the needed reports. Finally, how to set up Jenkins to run the build and display the reports.
+
+  'Erika Heidi':
+    avatar: http://2015.sunshinephp.com/img/speakers/erika_heidi.jpg
+    bio: |
+      Erika Heidi started her career as sysadmin, changing her focus to development after some years and embracing PHP as her main language, about 10 years ago. A Linux user since that time when you had to use minicom to connect to the Internet, Erika wrote the Vagrant Cookbook and created open source projects like Phansible, Placephant and dev-human. She works now as developer evangelist at Digital Ocean.
+    talks:
+      -
+        title: Vagrant Provisioning With Ansible
+        room: 'Grand Ballroom'
+        date: Saturday
+        time: 16:00 – 17:00
+        desc: |
+         Vagrant is getting more and more popular every day, reaching the status of de-facto tool for virtualized environments created for development purposes - you can finally forget about setting the right environment and focus on what you do best: code. However, many developers still step back from this great tool after having a bad experience with tools like Puppet and Chef. This talk will present you Ansible, a clean and straightforward automation tool that can be used along with Vagrant to spin up development vms. You you will learn how to get started with Ansible and write your first playbooks to provision a Vagrant environment.
+
+  'Eryn O''Neil':
+    avatar: http://2015.sunshinephp.com/img/speakers/eryn_oneil.jpg
+    bio: |
+      Eryn O'Neil is a web developer and technical lead at Clockwork Active Media in Minneapolis, MN. As part of an interactive agency, she has worked on everything from e-commerce to online promotions to creating and maintaining an internal framework and CMS. Her philosophy is to build software by placing humans first: both the people who will use it and the developers who will build it alongside you (and maintain it afterwards). Based in Minneapolis, MN, Eryn spends most of her free time swing and blues dancing, rock climbing, and wishing it weren't snowing.
+    talks:
+      -
+        title: Keynote
+        room: 'Grand Ballroom'
         date: Saturday
         time: 13:30 - 14:30
         desc: |
-         APIs: Dead Reckoning.
+         TBA
 
-  'Ben Ramsey':
-    avatar: http://2014.sunshinephp.com/img/speakers/ben_ramsey.png
+  'Gary Hockin':
+    avatar: http://2015.sunshinephp.com/img/speakers/gary_hockin.jpg
     bio: |
-        Ben Ramsey has been developing and designing software for fifteen years and has been writing and speaking about software development for ten of those years. A passionate aficionado of web development, APIs, and craft beer, Ben is the Senior Software Architect at Moontoast, an organizer of the Nashville PHP user group, and a home brewer.
+      Gary Hockin has been a web developer for over 15 years. He's a valued contributor to both Zend Framework 1 and 2, in addition to being on the ZF2 documentation team. Gary is Technical Lead of Training and Certification for Zend, along with being part of Roave, the badass PHP developers. When not working or spending time with his wife and two daughters, Gary can sometimes be found at the pub playing competitive pool.
+
     talks:
       -
-        title: Modern PHP
+        title: Maximising Performance in ZF2
         room: 'Key Biscayne #2 (rear)'
-        date: Saturday
-        time: 10:15 - 11:15
-        desc: |
-         With all of the advances that have come in PHP 5.5 (as well as 5.4 and 5.3), modern PHP code no longer looks like the PHP code from years ago. This talk will glimpse into PHP's past to see where we've come from and how we got where we are today, exploring how modern PHP applications are architected now to take full use of the newer features in PHP to produce cleaner, more stable, and easier to maintain codebases.
-
-  'Derick Rethans':
-    avatar: http://2014.sunshinephp.com/img/speakers/derick_rethans.jpg
-    bio: |
-        Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP driver for MongoDB.
-    talks:
-      -
-        title: Advanced Date/Time Handling with PHP
-        room: Grand Ballroom
         date: Saturday
         time: 14:45 - 15:45
         desc: |
-         PHP has powerful date/time handling functionality. It allows you to deal with many issues that arise when you are developing applications. This talk will cover advanced functionality and is not an introduction except for where this is necessary. I will cover dealing with timezones, calculations with DateTime objects and tips and tricks for dealing with storing date/time information.
+         Zend Framework 2 is a complex beast, and has been wrongly criticised for it's performance in a number of places. There are plenty of ways to eek out extra cycles from Zend Framework 2, some of them are known, some, not so much. Fisrtly you'll be introduced to the ways to benchmark and profile your ZF2 app, then we'll discuss the out-of-the-box improvements such as config caching and compiling, but also cover some bespoke modules designed to help your performance. Finally, we'll cover some coding best practices that can really help to squeeze that little extra out of your entry level VM.
 
-  'Beau Simensen':
-    avatar: http://2014.sunshinephp.com/img/speakers/beau_simensen.png
+  'Jeremy Lindblom':
+    avatar: http://2015.sunshinephp.com/img/speakers/jeremy_lindblom.jpg
     bio: |
-        Beau Simensen has been working with PHP since 2002. Professionally, he offers consulting services through his company Dragonfly Development. Beau is a proponent of writing framework agnostic code and hopes to help projects embrace a life not completely tied to any framework's ecosystem.
+      Jeremy (@jeremeamia) is a PHP Software Engineer at Amazon Web Services (AWS), co-author of the AWS SDK for PHP (@awsforphp), co-organizer of the Seattle PHP User Group (@seaphp), writer of PHP poetry (@phpbard), contributor to open source PHP projects (like Guzzle and SuperClosure), and a maker of funny faces.
     talks:
       -
-        title: Managing Dependencies with Composer
-        room: 'Key Biscayne #2 (rear)'
-        date: Saturday
-        time: 17:15 – 18:15
+        title: 'Tutorial: Building Web Service Clients With Guzzle'
+        room: Grand Ballroom
+        date: Thursday
+        time: 13:00 – 16:00
         desc: |
-         Traditionally, managing third-party code in PHP projects has not been a trivial task. Fortunately, the PHP community now has Composer, a top-notch dependency manager. Learn what Composer is and how you can put it to work for fun and profit. You will see how to set up a new project, find packages, as well as how to create and distribute your own packages.
+         Guzzle is a HTTP client library and web service client framework. Learn how to use Guzzle to work with HTTP and web service APIs, and see how Guzzle's simple HTTP abstractions, flexible event system, and asynchronous request capabilities make Guzzle a powerful open source project. We'll get our hands dirty and actually build a web service client using the core Guzzle library (guzzlehttp/guzzle) and its companion guzzlehttp/command and guzzlehttp/guzzle-services packages.
+      -
+        title: Speak HTTP And Consume APIs With Guzzle
+        room: 'Key Biscayne #1 (front)'
+        date: Saturday
+        time: 14:45 - 15:45
+        desc: |
+         Guzzle is a HTTP client library in PHP that puts all the power of cURL at your fingertips, but with a simple and intuitive interface. Learn how to use Guzzle to work with HTTP and web service APIs, and see how Guzzle's simple HTTP abstractions, flexible event system, and asynchronous request capabilities make Guzzle an amazing open source project that should be a permanent part of your PHP tool belt.
 
-  'Jake Smith':
-    avatar: http://2014.sunshinephp.com/img/speakers/jake_smith.jpg
+  'Joe Ferguson':
+    avatar: http://2015.sunshinephp.com/img/speakers/joe_ferguson.jpg
     bio: |
-        Jake Smith is a Software Engineer at Mashery, An Intel Company. Jake has been developing websites for over 10 years and is passionate about speaking/sharing on web development topics. These days you can find Jake helping organize such groups as DallasPHP, Lone Star PHP Conference and Barcamp Dallas.
+      PHP Developer, MemphisPHP Organizer, HACKmemphis Organizer, OSS Supporter, Computer Geek, Husband, Maker, and is owned by cats.
     talks:
       -
-        title: Iterators in PHP
+        title: Secure Form Processing And Protection
         room: 'Key Biscayne #2 (rear)'
+        date: Friday
+        time: 14:45 - 15:45
+        desc: |
+         XSS, NONCE, CSRF, WTF?! Form processing is something that's very basic and easy to do...wrong. There are tools and technologies you need to be using to prevent your forms from being abused and data falling into the wrong hands. We'll explore several of these technologies and how to implement them into your applications to keep your data safe.
+
+  'Juliette Reinders-Folmer':
+    avatar: http://2015.sunshinephp.com/img/speakers/juliette_reinders_folmer.png
+    bio: |
+       Juliette Reinders Folmer is an all round consultant and web-developer who tries not be a geek. Juliette is a long-standing member of PHPWomen which helped her immensely to find her feet in the PHP world. She is ZCE, actively contributes to a number of open source projects, has published several articles and speaks at conferences when given the chance. She loves it when you give her a chance to refactor spaghetti-code to something elegant and maintainable. Juliette is self-employed and based in the Netherlands. In her spare time, she is also the project manager of the worldwide 'Remember me when I'm gone' non-profit project.
+
+    talks:
+      -
+        title: 'The Big "Why Equal Doesn''t Equal" Quiz'
+        room: 'Key Biscayne #1 (front)'
+        date: Friday
+        time: 14:45 - 15:45
+        desc: |
+         So you think you know PHP? But do you really? We all compare data on nearly every other line in our code, be it input validation, an if-statement, a switch or determining what to display and how. So of course we are all experts on how to do these comparisons.... Or are we? Come and join in on the Big "Why equal doesn't equal" Quiz and show us whether you are an expert or a n00b in disguise...!
+
+  'Kayla Daniels':
+    avatar: http://2015.sunshinephp.com/img/speakers/kayla_daniels.jpg
+    bio: |
+        Author of the CodeManifesto, co-creator of HackTheStigma, and host of NoCapes. I'm a PHP Developer with a passion for clean code and strong communities.
+    talks:
+      -
+        title: 'Machine Learning: Or How To Build SkyNet On Your Lunch Break'
+        room: 'Key Biscayne #1 (front)'
         date: Saturday
+        time: 10:15 - 11:15
+        desc: |
+         In this talk we'll learn about the wonderful world of Machine Learning and how we can bend it to our will to tackle common problems that we face in our applications. We'll start with a quick primer on what even is Machine Learning. We'll learn about its different types, and the situations that suit them. We'll cover some history, and be introduced to the Grandfather of all Hipsters, Carl Friedrich Gauss. Once we know what it is, and where it came from, we can look at the kinds of problems that it can be used to solve and the tools available to help us use machine learning to conquer the world.
+
+  'Ben Ramsey':
+    avatar: http://2015.sunshinephp.com/img/speakers/ben_ramsey.jpg
+    bio: |
+        Ben Ramsey is a web craftsman, author, and speaker. He builds a platform for professional photographers at ShootProof, organizes user groups, and lives in Nashville, TN with his wife, son, and dog named Echo. Ben blogs at benramsey.com and is @ramsey on Twitter.
+    talks:
+      -
+        title: Debugging Zen
+        room: 'Key Biscayne #2 (rear)'
+        date: Friday
+        time: 17:15 - 18:15
+        desc: |
+         Debugging is a skill that we have a hard time exercising and is one of the most difficult to teach. It is a scientific discipline and an art. It requires you to reach beyond analytical thinking to rely upon your own intuition. In this talk, we’ll examine how intuition plays a role in debugging software. We'll explore practical pointers on tapping into intuition and combining it with analytical processes to be a better developer.
+
+  'Lorna Mitchell':
+    avatar: http://2015.sunshinephp.com/img/speakers/lorna_mitchell.jpg
+    bio: |
+        Lorna is a web development consultant and author based in Leeds, UK. Her books include "PHP Master", "PHP Web Services" and "N Ways To Be A Better Developer", and she has spoken at events around the world giving both keynotes and technical talks. At work Lorna consults on web and mobile projects for a variety of clients, building excellent APIs and advising on how teams can improve their development practices. In her spare time Lorna leads the Joind.In open source project; a tool to enable communities to give real-time, public feedback to speakers and organisers of events.
+    talks:
+      -
+        title: 'Tutorial: Advanced Git Skills'
+        room: Grand Ballroom
+        date: Thursday
+        time: 9:00 - 12:00
+        desc: |
+         Get beyond the basics with this practical git session. We'll be covering some useful switches to the commands you know well and looking at how to optimise your configuration to make your day-to-day work easier. We'll look in depth at the concepts of branching, merging, tagging and collaborating with multiple remotes. There will also be guidance on how to make use of the more advanced features such as rebase, rerere and bisect. This is a hands-on session, please bring a laptop with git installed and be prepared to get some serious practice on all these topics. We'll be working in local repositories as well as sharing code and collaborating on changes in GitHub. At the end of the session you will be able to make effective use of git's features, and untangle any git problem with confidence.
+      -
+        title: Advanced Adventures In Git
+        room: Grand Ballroom
+        date: Friday
         time: 11:30 - 12:30
         desc: |
-         PHP iterators have been around since PHP 5, but are heavily under utilized. With all the built-in iterators there is no reason you shouldn't be leveraging it's power and flexibility. In this session you will learn about all the built-in PHP iterators and be guided on how to extend and/or create your own iterators.
+         Boost your git skills in this session where we pick out some of the most handy but underused features of an excellent tool. If you're confident committing, branching and merging, then come along and collect the next set of skills, to include bisect, rebasing, adding patches rather than files, the rerere command, and some tricks for handling multiple remotes. We'll also look at using configuration files: your own config, the gitignore file and how to teach gitattributes about the different types of file in your project. Anyone using git on a regular basis will learn some new tricks in this session.
+
+  'Margaret Staples':
+    avatar: http://2015.sunshinephp.com/img/speakers/margaret_staples.jpg
+    bio: |
+        I'm part of the AesopGames team. I write the code that makes the game work! I take design documents and translate them into game functions, and then take those and deliver them to players through the web client and to our Unity developer through the API. I'm also a cyborg - in that a chunk of my spine was crushed in a car accident and replaced with a metal plate, four screws, and a spacer from a cadaver! Unfortunately, my cyberware is in dire need of an upgrade! I can't manage much that can't be done laying under a laptop, but with game development I get to fill my days Making Things Work, and helping to create an environment where people can share a fun, creative, collaborative experience - which just keeps bringing a smile to my face :)
+    talks:
+      -
+        title: Symfony2 - The Very Basics
+        room: 'Key Biscayne #2 (rear)'
+        date: Friday
+        time: 16:00 - 17:00
+        desc: |
+         The unknown learning curve for adopting a framework can put the benefits they offer logistically out of reach for developers with an eye on a deadline. This talk will aim to provide all of the basic knowledge needed to develop a new web project using the Symfony2 framework. The talk will cover initial setup, navigating the directory structure, the routing->controller->template relationship, setting up your first pages, adding bundles, as well as a brief introduction to creating services and commands. Prior knowledge of other frameworks is not assumed, and the talk aims to be sufficiently straightforward for developers of any experience level.
+
+  'Matthew Weier O''Phinney':
+    avatar: http://2015.sunshinephp.com/img/speakers/matthew_weier_ophinney.jpg
+    bio: |
+        Matthew is a Principal Engineer at Zend Technologies, and project lead for both Apigility and Zend Framework. He has been using and abusing web technologies since the late nineties, and actively contributing to open source projects for over a decade, primarily in PHP. When not in front of a computer, you’ll find him cavorting with his Basset Hound and family on the plains of South Dakota.
+
+    talks:
+      -
+        title: 'Giving Up Control: Inversion Of Control For Beginners'
+        room: 'Grand Ballroom'
+        date: Friday
+        time: 16:00 - 17:00
+        desc: |
+         Over the past few years, the mantra in OOP PHP projects has been "Dependency Injection": get rid of those registries, service locators, and God objects. Simply put, Dependency Injection (DI) is the act of injecting objects on which a class depends via the constructor or setter methods, instead of instantiating them directly or pulling them from a known location (usually a registry). The real question, however, is: where do you create those dependency instances? This is where a concept called "Inversion of Control" (IoC) comes into play. During this session, we'll review Dependency Injection, define Inversion of Control, and look at methods of implementing IoC. Generic examples will illustrate how IoC can make it possible to automate DI, as well as provide the ability to substitute alternate implementations for dependencies when desired - thus adding flexibility to application design.
 
   'Chris Tankersley':
-    avatar: http://2014.sunshinephp.com/img/speakers/chris_tankersley.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/chris_tankersley.jpg
     bio: |
        Chris Tankersley is a husband, father, and PHP developer in Northwest Ohio. I work for The Brick Factory in Washington, D.C. doing Drupal, Wordpress, and custom development. I founded the Northwest Ohio PHP User Group, and work with local developers helping them with programming and server administration. I work with PHP primarily, with some work done in Node.js and Python for personal projects.
     talks:
       -
-        title: Don't trust your users
+        title: 'Tutorial: Your Inner Sysadmin'
         room: 'Key Biscayne #1 (front)'
-        date: Saturday
-        time: 14:45 - 15:45
+        date: Thursday
+        time: 9:00 - 12:00
         desc: |
-         Some of the most common vulnerabilities in web applications are caused by applications not properly inspecting the data that users send in. PHP has an entire suite of tools to help inspected, filter, and sanitize data that comes from the user and other outside parties. Using built-in methods and extra tools you can protect your app from harmful data and users.
+         One thing that most programmers do not take the time to understand is the servers that their application lives on. Most know a smattering of Apache configs, PHP configs, and basic information about the OS. This talk will deal with looking at tools that can help you quickly set up a server and how it can help you be a better developer. We'll look at tools like puppet for server management, OSSEC for log management, different command line tools, and nagios/monit for system monitoring.
+      -
+        title: Dockerize All The Things!
+        room: 'Key Biscayne #2 (rear)'
+        date: Saturday
+        time: 17:15 - 18:15
+        desc: |
+         Thanks to tools like vagrant, puppet/chef, and Platform as a Service services like Heroku, developers are extremely used to being able to spin up a development environment that is the same every time. What if we could go a step further and make sure our development environment is not only using the same software, but 100% configured and set up like production. Docker will let us do that, and so much more. We'll look at what Docker is, why you should look into using it, and all of the features that developers can take advantage of.
 
-  'Lukas Kahwe Smith':
-    avatar: http://2014.sunshinephp.com/img/speakers/lukas-kahwe-smith.jpg
+
+  'Michael Moussa':
+    avatar: http://2015.sunshinephp.com/img/speakers/michael_moussa.jpg
     bio: |
-        Lukas lives and breaths open source and ultimate frisbee. He makes regular appearances at conferences around the globe and has left an impression in various parts of the PHP community, not the least of which as co-release-manager for PHP 5.3 and launching wiki.php.net. In recent years he has focused a lot of his attention on Symfony2, especially the CMF initiative. He is also fairly known in database and search circles where he is co-lead of the PHP content repository specification. Oh yeah and he plays a lot of ultimate frisbee :)
+        Michael Moussa is web developer with over 15 years experience building PHP applications. He is currently a Lead Developer at the ZAM Network working primarily on their League of Legends site, http://lolking.net. When he's not coding, you can find him brewing his own beer or at the gym lifting things up and putting them down.
+
     talks:
       -
-        title: 'Tutorial: RESTing with Symfony2'
-        room: 'Key Largo #4'
-        date: Thursday
-        time: 13:00 - 16:00
+        title: 'Unit Testing PHP Applications'
+        room: 'Key Biscayne #1 (front)'
+        date: Friday
+        time: 11:30 - 12:30
         desc: |
-         Based on concrete examples, you will learn how to build a REST API using Symfony2 and many third-party libraries in an efficient manner. We will dive into each layer including routing, controllers, serialization, versioning, testing, the security layer and even the documentation (this list is not exhaustive). Overall, this talk describes the state of REST in the Symfony2 world. However as there is unfortunately a lot of confusion about the theory of REST, we will start off first looking at the core ideas of REST independently of Symfony2. The code examples will be based on the Symfony2 REST Edition (https://github.com/gimler/symfony-rest-edition), so its recommended for tutorial attendees to have installed it before the tutorial.
+         Testing your code before deploying to Production is important - so why rely on slow, limited, manual testing? Automated tests can help protect you from introducing bugs into your applications and provide valuable feedback on application design. They're quick, they run whenever you want them to, and they don't forget about those few lines of code you wrote months ago. In this talk, you'll learn how to set up PHPUnit and configure it to run tests against your project. We'll write some tests together and go over more intermediate topics, such as mocking dependencies and making your code more "testable." Finally, we'll see which tools are available for us to help determine how much of our code is tested and to assess its overall quality. After this talk, you'll know everything you need to begin testing your PHP applications.
+
+  'Rafael Dohms':
+    avatar: http://2015.sunshinephp.com/img/speakers/rafael_dohms.jpg
+    bio: |
+        Rafael Dohms is an experienced PHP Developer, Evangelist, Speaker, and Contributor. During his years of experience, he has become an active member of the community and founded three user groups. He moved to the Netherlands in search of new challenges and to share his passion for code quality and innovation. In his spare time, he also helps manage the AmsterdamPHP User Group, amongst other projects.
+
+    talks:
       -
-        title: Decoupled CMS
+        title: Composer The Right Way
         room: Grand Ballroom
         date: Friday
         time: 17:15 - 18:15
         desc: |
-         Traditional CMS have been build as monolithic blocks that despite their name, do not really manage content, they manage pages of a website. These solutions try to provide one size fits all answers with code that is hard to evolve and customize. This talk will look at two ways of why it makes sense to decouple the architecture of a CMS and look at different available tools and services to enable building such a decoupled CMS solution (http://decoupledcms.org).
-
-  'Brandon Savage':
-    avatar: http://2014.sunshinephp.com/img/speakers/brandon_savage.jpg
-    bio: |
-        Brandon has been a software developer since 2003. Ever since discovering that he could use software to automate routine tasks, heâ€™s been hooked. Brandon is passionate about perfecting the art of software development. Brandon blogs, speaks and writes regularly about software development topics. Brandon works at Mozilla on the Socorro project, working daily to make Firefox better. Brandon is also an instrument rated private pilot and enjoys traveling.
-    talks:
-      -
-        title: Essential Design Patterns for PHP
-        room: Grand Ballroom
-        date: Saturday
-        time: 11:30 - 12:30
-        desc: |
-         Design patterns. They strike fear in the heart of developers. Like wild animals they seem untamable, something best left to the most advanced object oriented developers. But you can master design patterns. I will show you how. Learn about some of the most essential design patterns for PHP developers to know and love, and find out how easy it is to use them in your own application. You’ll have design patterns mastered in no time.
-      -
-        title: 'Tutorial: Design Patterns Workshop'
-        room: 'Key Biscayne #1 (front)'
-        date: Thursday
-        time: 13:00 - 16:00
-        desc: |
-         In 1994, the Gang of Four changed the world with their book, Design Patterns. Yet nearly 20 years later, we're still struggling with design patterns. How can this be?
-
-         The answer is that design patterns are hard. Designing reusable applications is the most challenging thing a developer can do. But there's good news: you CAN master design patterns and use them to your advantage! This workshop will show you how.
-
-         Learn how you're already using design patterns in your own code, how to identify design patterns in the code of others, how to use eight of the most common design patterns (with live coding demonstrations!) and the ways in which design patterns can change your applications!
+         Composer has triggered a renaissance in the PHP community, it has changed the way we deal with other people’s code and it has changed the way we share our code. We are all slowly moving to using Composer, from Wordpress to Joomla and Drupal and frameworks in between. But many of us mistreat composer, follow outdated practices or simply lack a few tricks. In this session i’ll get you the low down on how to use composer the right way.
 
   'Michelangelo Van Dam':
-    avatar: http://2014.sunshinephp.com/img/speakers/michelangelo_van_dam.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/michelangelo_van_dam.jpg
     bio: |
-        Michelangelo van Dam is a professional PHP consultant and Zend Framework expert working mainly for governments and larger enterprises. Michelangelo is also president of PHPBenelux, a PHP user group operating in Belgium, Netherlands and Luxembourg, and speaks at several PHP conferences around the world.
+        Michelangelo Van Dam is a professional PHP consultant and Zend Framework expert working mainly for governments and larger enterprises. Michelangelo is also president of PHPBenelux, a PHP user group operating in Belgium, Netherlands and Luxembourg, and speaks at several PHP conferences around the world.
+
     talks:
       -
-        title: UA testing with Selenium and PHPUnit
+        title: 'Tutorial: Workshop: Improving QA on PHP Development Projects'
+        room: 'Key Largo #4'
+        date: Thursday
+        time: 13:00 – 16:00
+        desc: |
+         Everyone talks about raising the bar on quality of code, but it's always hard to start implementing it when you have no clue where to start. With this talk I'm shooing that there are many levels developers can improve themselves by using the right tools. In this talk I'll go over each tool with examples how to use them against your codebase. A must attend talk for every developer that wants to scale up their quality. Most PHP developers deploy code that does what the customer requested but they don't have a clue about the quality of the product they deliver. Without this knowledge, maintenance can be a hell and very expensive. In this workshop I cover unit testing, code measuring, performance testing, debugging and profiling and give tips and tricks how to continue after this workshop.
+
+      -
+        title: Your Code Are My Tests
         room: 'Key Biscayne #2 (rear)'
         date: Saturday
-        time: 14:45 - 15:45
+        time: 10:15 - 11:15
         desc: |
-         Nothing is as frustrated as deploying a new release of your web application to find out functionality you had doesn't work anymore. Of course you have all your unit tests in place and you run them through your CI environment, but nothing prepared you to a failing javascript error or a link that doesn't work anymore. Welcome to User Acceptance testing or UAT. Before you start putting real people in front of your application, create macros and export them as PHPUnit test classes. Then run them in an automated way just like your unit tests and hook them into your CI. In this talk I will show you how easy it is to create Selenium macros that can be converted into PHPUnit scripts and run automatically on different virtual machines (VMs) so you can test all different browsers on a diversity of operating systems.
-      -
-        title: 'Tutorial: Improving QA and PHP development projects'
-        room: Grand Ballroom
-        date: Thursday
-        time: 13:00 - 16:00
-        desc: |
-         Everyone talks about raising the bar on quality of code, but it's always hard to start implementing it when you have no clue where to start. With this talk I'm shooing that there are many levels developers can improve themselves by using the right tools. In this talk I'll go over each tool with examples how to use them against your codebase. A must attend talk for every developer that wants to scale up their quality.
+         After years of promoting PHPUnit I still hear it's hard to get started with unit testing. So instead of showing nice step-by-step examples on how to use PHPUnit, we're going to take an example straight from github. So I've taken the challenge to start writing tests for PHP projects that don't have unit tests in place and explain how I decide where to begin, how I approach my test strategy and how I ensure I’m covering each possible use-case (and covering the CRAP index). The goal of this presentation is to show everyone that even legacy code, spaghetti code and complex code bases can be tested. After this talk you can immediately apply my examples on your own codebase (even if it's a clean code base) and get started with testing. To follow along a basic knowledge unit testing with PHPUnit is required.
 
-         Most PHP developers deploy code that does what the customer requested but they don't have a clue about the quality of the product they deliver. Without this knowledge, maintenance can be a hell and very expensive.
-
-         In this workshop I cover unit testing, code measuring, performance testing, debugging and profiling and give tips and tricks how to continue after this workshop.
-
-  'Alvaro Videla':
-    avatar: http://2014.sunshinephp.com/img/speakers/alvaro_videla.JPG
+  'Michelle Sanver':
+    avatar: http://2015.sunshinephp.com/img/speakers/michelle_sanver.png
     bio: |
-        Alvaro Videla works as Developer Advocate for Pivotal. Before moving to Europe he used to work in Shanghai where he helped building one of Germany biggest dating websites. He co-authored the book "RabbitMQ in Action" for Manning Publishing. Some of his open source projects can be found here: http://github.com/videlalvaro. Apart from code related stuff he likes traveling with his wife, listening/playing music and reading books. You can find him on Twitter as @old_sound.
+        Michelle Sanver is president of PHPWomen, an inclusive and global network providing support within the PHP community. She also works as a software developer at Liip, based in Zürich, Switzerland. Michelle loves anything community related and is a big advocate of Open Source. She is a code-passionate colourful geek and with more than 10 years of PHP experience she is eager to share her extensive knowledge.
     talks:
       -
-        title: Scaling Applications with RabbitMQ
+        title: Handling Highly Connected Data With The Neo4j Graph Database
         room: 'Key Biscayne #1 (front)'
         date: Saturday
-        time: 16:00 – 17:00
+        time: 17:15 - 18:15
         desc: |
-         Do you need to process thousands of images in the background for your web app? Do you need to share data across multiple applications, probably written in different languages and sitting at different servers? Your real time data feed is becoming slow because you are polling the database constantly for new data updates? Do you need to scale information processing during peek times? What about deploying new features with zero downtime? If any of these problems sound familiar then you probably need to use messaging in your application. In this talk I will introduce RabbitMQ, a messaging and queue server that can help us tackle those problems. We will learn how to implement messaging into our applications, use Pub/Sub, RPC and give a new meaning to the term 'decoupling'.
+         Traditional relational databases — ironically — are not that good at the complex relationships some modern applications need. Multiple joins and complex sub-queries can gradually take a toll on performance. Graph Databases, on the other hand, are all about relationships. In this talk we will look at using the popular Neo4j graph database with PHP to build efficient relational data for OmNomHub: not your average recipe site.
 
-  'Eli White':
-    avatar: http://2014.sunshinephp.com/img/speakers/eli_white.jpg
+  'Mike Stowe':
+    avatar: http://2015.sunshinephp.com/img/speakers/mike_stowe.jpg
     bio: |
-         Eli has been building Web Applications for over 18 years and fell in love with PHP the day that PHP 4 was released. Since then he's been a strong advocate for PHP and used it in every project he's work on. He is currently the Managing Editor and Conference Chair for php[architect] and Founding Partner & CTO of musketeers.me. He is also an avid writer (blogs, articles and books), and has spoken at numerous conferences.
+         Michael Stowe is a professional, Zend Certified Engineer with over 10 years experience building applications for law enforcement, the medical field, nonprofits, and numerous industrial companies. Over the last two years he has been focused on APIs and ways to improve industry standards and efficiency. He now works for MuleSoft, a company on the leading edge of API development and management, as well as SOA/ ESB architectures. You can view slides from his other talks at mikestowe.com/slides or follow him: @mikegstowe.
+
     talks:
       -
-        title: Hacking Wordpress, a crash course in writing plugins and widgets
+        title: REST API Best Practices
         room: 'Key Biscayne #1 (front)'
         date: Saturday
         time: 17:15 – 18:15
         desc: |
-         I spent most of my career writing large custom in-house solutions. To me, WordPress was the software I used to run my blog, nothing more. Suddenly I found myself doing WP consulting as well as inheriting the php[architect] codebase which is completely built on top of it! I was then amazed as I dove in, at just how easy it is in WP to build any custom functionality/pages that you need via a simple API. Come learn in this session just how easy it is to build custom functionality into WP and use it as an application development framework.
+         Let's talk best practices, but more importantly, the ones most people tend NOT to follow. You know, things like doing CRUD correctly, using the correct response codes, or how about that whole hypermedia thing. We'll even take a look at different API specs and data response formats (you know like HAL, JSON-LD, JSON API, etc) before taking a few minutes to answer any specific questions you might have.
 
   'Ryan Weaver':
-    avatar: http://2014.sunshinephp.com/img/speakers/ryan_weaver.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/ryan_weaver.jpg
     bio: |
         Ryan Weaver is the documentation lead for the Symfony Framework, trainer and consultant at KnpLabs US, writer for KnpUniversity.com and an avid supporter of open source as a tool to solve serious business problems. Ryan likes to present topics in a narrative way - building real applications and telling a story as you learn and develop. He's a published author, speaker and, most importantly, the husband of the wonderful Leanna Pelham.
+
     talks:
       -
-        title: Get Started, Move Fast and Break Things with Symfony2
+        title: Developer Experience In The PHP World
         room: Grand Ballroom
         date: Friday
-        time: 11:30 - 12:30
+        time: 10:15 - 11:15
         desc: |
-         Grab some coffee and let's get your project moving on Symfony2! Since its 2.0 release in 2011, a lot of fantastic tools and best-practices have been built up around Symfony. In this talk, we'll start a real project and learn about some of these tools that can make us dangerous as quickly as possible! Symfony2 lets you write beautiful, maintainable code, and I'll give you 5 tips to do just that while staying aggressive with getting features out the door. RAD!
-      -
-        title: 'Tutorial: Behat, BDD and Selenium in your app'
-        room: Grand Ballroom
-        date: Thursday
-        time: 09:00 - 12:00
-        desc: |
-         Testing our applications is something we all do. Ahem, rather, it's something we all *wish* we did. In this workshop, we'll get to work hands-on with Behat: a behavior-driven-development library that allows you to write functional tests against your application just by writing human-readable sentences/scenarios. We'll also learn about its sister-app Mink, which lets you run these tests in a real browser (via Selenium2).
+         We're sharing more, we're writing more blog posts and we're building libraries with increasingly clever names. So why does it sometimes *still* feel like rage-tossing my computer out of the window is part of solving development problems? I thought the future would let me composer install unicorns and rainbows directly into my app!? Shouldn't my experience as a developer be smoother? Having *only* great tools is just about as useful as locking me inside a Home Depot and asking me to build a house. So in this talk, we'll look at developer experience (DX) in the PHP world by going through some DX wins and some DX fails, um, "todos". I'll also share what some communities and libraries are doing specifically to make our lives easier and more productive. But ultimately, DX starts with *us*: developers who notice when things are too difficult and improve them. By the end of this talk, I hope the PHP world will have a few more DX heroes.
 
-         If you've heard the buzz around Behat and want to try it, or if you're not happy with the functional tests in your app, then let's get hands-on with Behat.
 
   'Anthony Ferrara':
-    avatar: http://2014.sunshinephp.com/img/speakers/anthony_ferrara.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/anthony_ferrara.jpg
     bio: |
-      Anthony Ferrara is a Senior Architect for NBC Universal, specializing in Object Oriented Design, Application Architecture and Highly Scalable Web Applications. He also has experience in Web Application Security and PHP Internals. He is a contributor to multiple Open Source projects, as well as the PHP community as a whole. He is also a former Core Team Member and Development Coordinator for the Joomla! project, as well as a former leader of its Security team. You can follow his blog at blog.ircmaxell.com or on Twitter at @ircmaxell.
+      Anthony Ferrara is a Developer Advocate for Google. He specializes in Object Oriented Design, Application Architecture, Web Application Security and PHP Internals. He is a contributor to multiple Open Source projects, as well as the PHP community as a whole. You can follow his blog at blog.ircmaxell.com or on Twitter at @ircmaxell.
     talks:
       -
-        title: Development, By the numbers
-        room: 'Key Biscayne #2 (rear)'
-        date: Friday
+        title: Beyond Design Patterns
+        room: 'Grand Ballroom'
+        date: Saturday
         time: 10:15 - 11:15
         desc: |
-         Quite often we hear people talking about how to write better code, how to build systems better or how to leverage new technologies to produce better software. But how can we objectively quantify whether code is good or if it needs improving? How can we analyze an existing codebase to see what parts need improvement without spending weeks reading through the source code? The answer is provided by static analysis tools like pDepend and PHPLOC. But the results that they produce can be extremely cryptic and hard to understand. From acronyms like NPATH and CRAP to metrics like Cyclomatic Complexity and Fanout, there's a whole treasure trove of information just waiting to be descifered. In this talk, we'll explore some of the tools available for measuring software quality. We'll dive into some of the theory behind the metrics that they analyze while looking at some real world applications of those metrics. We'll also explore how to use these tools to gain valuable insight into legacy codebases. Finally, we'll look into methods to integrate those metrics into your development workflow to help improve the quality of the applications that you build.
+         Many people teach design patterns as a fundamental step to Object Oriented Programming. They are so universally seen as important that almost every single programming conference that I have been to has had at least one talk about them. They are quite often used as interview questions to test a candidate's OOP knowledge. However, just like inheritance, they are not needed for OOP. And just like inheritance, they are a distraction rather than a foundation. Instead of focusing on patterns, I suggest focusing on learning about abstraction and communication. Why? Come and find out!
+      
+  'Ralph Schindler':
+    bio: Ralph is a senior software engineer at Offers.com. His experiences with PHP date back to the late 1900's during the days of PHP 3. Since 2006 he has contributed to many open source PHP projects, but primarily Zend Framework. While much of his time is spent on PHP related technologies, he has recently taken an interest in client-side application development, particularly AngularJS. Ralph is currently located in his native home-town, New Orleans - partaking in as much of the great food, drink and live music as one can muster. When not in front of his computer, he can be found hacking on home-owner projects, participating in his neighborhood improvement organization, hanging out with his spectacular wife Jenny, or playing with his two sons and chocolate Labrador, Belle.
 
-      -
-        title: 'Tutorial: Code Review for security'
-        room: 'Key Biscayne #2 (rear)'
-        date: Thursday
-        time: 09:00 - 12:00
-        desc: |
-         Imagine the day where you get an email from your CEO: "Our site has been hacked! Millions of user records have been leaked! And we're being sued!"... Unfortunately, that situation appears to be quite common place in the modern world. In the past year alone LinkedIn, Sony, Zappos, Twitter, Apple, Yahoo and LastFM (and a lot more) have compromised, leaking over 100 million user records. How has this become common place? Developers traditionally haven't focused on security (that's someone else's problem, right?)... Wrong! Security is everyone's job!
-
-         Come and learn more about how to identify and fix security issues! In this workshop, we'll cover the most dangerous and prevalent security vulnerabilities in PHP applications today. We'll look at how those vulnerabilities work under the hood, and how to prevent them. Then, we'll spend time reviewing actual code with actual vulnerabilities. Once we've identified a potential vulnerability, you will actually execute an attack against it! By the end of the workshop, you should be able to identify insecure code and fix it!
-
-         Who is the target audience of this workshop?
-         * Any developer who has preformed code-review before
-         * Any developer who wants to understand security better
-
-         How experienced do I need to be?
-         * If you understand how to read code, you have enough experience to attend this workshop!
-
-         Tutorial requirements:
-         * A laptop
-
-         A cursory understanding of the OWASP Top 10 will be very helpful.
-
-  'Beth Tucker Long':
-    bio: Beth Tucker Long is the Editor-In-Chief of php[architect] magazine (http://www.phparch.com), co-organizer of Madison PHP (http://www.madisonphp.com), and she also teaches PHP courses and freelances. You can find her on Twitter (@e3betht) or on her blog (http://www.alittleofboth.com). She runs Treeline Design - http://www.treelinedesign.com, a web development company, and Playlist Event Music - http://www.playlisteventmusic.com, a DJ company, along with her husband, Chris.
-    avatar: http://2014.sunshinephp.com/img/speakers/beth_tucker_long.png
+    avatar: http://2015.sunshinephp.com/img/speakers/ralph_schindler.jpg
     talks:
       -
-        title: 'Tutorial: Foundations of PHP'
-        room: 'Key Biscayne #1 (front)'
-        date: Thursday
-        time: 09:00 - 12:00
+        title: 'The Javascript Single Page App Front-end And The PHP Back-end'
+        room: 'Key Biscayne #2 (rear)'
+        date: Saturday
+        time: 16:00 – 17:00
         desc: |
-          A building works better with a solid foundation beneath it. The same is true for PHP. Whether you are new to programming or are just looking for a refresher, this session will take you through the basics. Beth Tucker Long will cover strings and arrays, conditions and loops, sessions and cookies, form validation and security, and writing your own functions. Best of all, Beth won't just talk about these concepts, she'll go through actual code, so you can see them in action. Bring your laptop, follow along, and you'll have a working application when you leave. Questions are welcomed!
-      -
-        title: Foundations of PHP
-        room: 'Key Biscayne #1 (front)'
-        date: Friday
-        time: 10:15 - 11:15
-        desc: |
-          A building works better with a solid foundation beneath it. The same is true for PHP. Whether you are new to programming or are just looking for a refresher, this session will take you through the basics. Beth Tucker Long will cover strings and arrays, conditions and loops, sessions and cookies, form validation and security, and writing your own functions. Best of all, Beth won't just talk about these concepts, she'll go through actual code, so you can see them in action. Bring your laptop, follow along, and you'll have a working application when you leave. Questions are welcomed!
+          Once upon a time, a PHP developer architected applications that both interacted with the data-store and also delivered HTML and other assets to the browser. Today, it is increasingly so the traditional PHP full stack application is no longer the piece delivering the HTML and other assets, but "merely" delivering data encapsulated as JSON. What used to be a single monolithic PHP application for many has evolved into a thin PHP API serving back-end, and a rich Single Page Application (as consumer #1 of the backend) built in JavaScript on the front-end. Along the way of this evolution, well wrangled problems and concepts like MVC, authentication, and UI/UX problems have also been redefined and reassigned to either the back-end app, front-end app, or both. In this talk, we'll attempt to bring clarity to the roles and responsibilities of the front-end application and the back-end application given a solid understanding of a traditional full stack server application.
 
   'Cal Evans':
     bio: |
-      For the past 13 years Cal has worked with PHP and MySQL on Linux, OSX, and Windows. He has built a variety of projects ranging in size from simple web pages to multi-million dollar web applications. When not banging his head on his monitor, attempting a blood sacrifice to get a particular piece of code working, he enjoys building and managing development teams using his widely imitated but never patented management style of “management by wandering around”.
+      Many moons ago, at the tender age of 14, Cal touched his first computer. (We’re using the term “computer” loosely here, it was a TRS-80 Model 1) Since then his life has never been the same. He graduated from TRS-80s to Commodores and eventually to IBM PC’s. For the past 13 years Cal has worked with PHP and MySQL on Linux, OSX, and Windows. He has built a variety of projects ranging in size from simple web pages to multi-million dollar web applications. When not banging his head on his monitor, attempting a blood sacrifice to get a particular piece of code working, he enjoys building and managing development teams using his widely imitated but never patented management style of “management by wandering around”. These days, when not working with PHP, Cal can be found working on a variety of projects like CoderFaire. He speaks at conferences around the world on topics ranging from technical talks to motivational talks for developers. If you happen to meet him at a conference, don’t be afraid to buy him a shot of Bourbon. Cal is based in Nashville TN where he is happily married to wife 1.30, the lovely and talented Kathy. Together they have 2 wonderful kids who were both smart enough not to pursue a job in IT.
 
-      These days, when not working with PHP, Cal can be found working on a variety of projects, most of which require a higher security clearance than you have so they can’t be listed here.
-
-      Cal is happily married to wife 1.28, the lovely and talented Kathy. Together they have 2 wonderful kids who were both smart enough not to pursue a job in IT.
-
-    avatar: http://2014.sunshinephp.com/img/speakers/cal_evans.png
+    avatar: http://2015.sunshinephp.com/img/speakers/cal_evans.png
     talks:
       -
-        title: Closing Keynote
+        title: Keynote: Down the Rabbit Hole: Lessons Learned combining Career and Community.
         room: Grand Ballroom
         date: Saturday
         time: 18:15 - 19:15
-        desc: TBA
+        desc: |
+          The common mantra is “Community Works”, but does it? How does burning vacation days to speak at a conference “work”? How does staying up until the wee hours of the morning working on a project, just to turn around and go work your day job “work”? Exactly how does community pay the bills each month? Let me show you how it works.
 
-  'Davey Shafik':
+          Let’s jog through my career as a programmer. Along the way, we will take a look at how community has not only affected my career in a positive manner; it has been a JATO strapped to my career. I’m just a programmer, not even a great one. If community can help my career, it can help anyone’s.
+
+  'Samantha Quiñones':
     bio: |
-      Davey Shafik is a full time PHP Developer with 12 years experience in PHP and related technologies. A Community Engineer for Engine Yard, he has written three books (so far!), numerous articles and spoken at conferences the globe over. He lives in Central Florida with his wife, son and two cats. Davey is best known for his books, the Zend PHP 5 Certification Study Guide and PHP Master: Write Cutting Edge Code, and as the originator of PHP Archive (PHAR) for PHP 5.3.
+      Samantha Quiñones is a veteran software engineer and lead developer at POLITICO.com. Before moving in to the digital media publishing space, she spent 15 years developing software in the network security and financial services industries. Since 2005, her focus has been on designing functional, scalable web services and applications and promoting software engineering as a profession and an art. Samantha is an active member of the Washington, DC open source community, occasional blogger, and process nerd.
 
-    avatar: http://2014.sunshinephp.com/img/speakers/davey_shafik.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/samantha_quinones.jpg
     talks:
       -
-        title: MySQL HA, Recovery and Load Balancing
-        room: 'Key Biscayne #2 (rear)'
-        date: Friday
-        time: 14:45 - 15:45
-        desc: Using Oracle MySQL Server and Percona XtraDB Cluster we will take a look at several possible replication configurations for MySQL high-availability, disaster recovery and load-balancing. After comparing them for administration ease, scalability of reads and writes, robustness of the system for errors and time for data recovery as well as looking at how they impact your code-layer we will discuss the ins-and-outs of each setup, looking at the pros and cons, and what trade-offs you will need to make depending on your needs.
-
-  'Evan Coury':
-    bio: Evan Coury is a core contributor and long-time user of Zend Framework who is perhaps most well known in the community for authoring the all-new ZF2 module system. He is currently a professional software architect and independent consultant. In addition to consulting and his open source contributions, Evan is also the owner of Roave, a PHP and Zend Framework consulting and development company which employs some of the most talented developers in the PHP community. http://blog.evan.pro/
-    avatar: http://2014.sunshinephp.com/img/speakers/evan_coury.jpg
-    talks:
-      -
-        title: Writing Maintainable ZF2 Applications
-        room: Grand Ballroom
-        date: Saturday
-        time: 10:15 - 11:15
-        desc: Zend Framework 2 provides a lot of great tools and resources to help developers build quality applications. However, a lot of important architectural decisions are still left to the developer. What belongs in the controllers? What’s a service layer and why should you have one? What the %*$# is a model, really? In this session, Evan will lift the fog on all of these concepts, showing you how to use them to create a more maintainable and well architectured ZF2 application, while keeping the technical debt to a minimum.
-
-      -
-        title: 'Tutorial: ZF2 Modules Workshop'
+        title: 'Tutorial: Getting Started With Varnish'
         room: 'Key Biscayne #2 (rear)'
         date: Thursday
-        time: 13:00 - 16:00
-        desc: |
-         One of the highly anticipated new features of Zend Framework 2 is the introduction of an all new and powerful approach to modules. This new module system has been designed with flexibility, simplicity, performance, and reusability in mind.
+        time: 13:00 – 16:00
+        desc: Varnish is attracting an enormous amount of attention in the world of digital media lately and it absolutely has the capacity to revolutionize the way we deliver content. While very simple to install, Varnish’s real capacity lies in the powerful configuration language, VCL. In this tutorial, we’ll walk through the process of installing and configuring Varnish, explore the included VCL and the shared VCL repositories. Finally, we’ll dive in to the VCL itself and learn how to develop custom configurations that handle real-world use cases.
+      -
+        title: 'TDD: Team-Driven Development'
+        room: 'Key Biscayne #1 (front)'
+        date: Friday
+        time: 17:15 - 18:15
+        desc: Developing software as part of a team introduces a host of challenges. A strong, motivated development team working together can marshal the strengths and specialities of each of its members to create something much larger than the sum of its parts. Teams that don’t work together can drain resources and make the workplace a miserable place to spend the day. The fact is, strong teams need strong leaders, and strong leadership is something that each of us can cultivate within ourselves. No matter your experience level or seniority, if you work as part of a team, you have the capacity to help lead your colleagues toward success. We’ll discuss strategies for dealing with conflict, ideas on how to become stronger communicators, and ways to help you and your teammates get the best from one another.
 
-         In this interactive workshop, Evan Coury, the author of the new ZF2 module system, will explain everything ZF2 modules have to offer, while covering the process and strategies for building effective, reusable ZF2 modules leveraging fundamental ZF2 concepts such as services and events. By the end of the workshop, youâ€™ll have the basic knowledge and examples necessary to begin building great modular applications with Zend Framework 2.
-
-  'Jeff Carouth':
-    bio:  Jeff Carouth is a web application developer honing his programming and skiing skills at Liftopia. He is an active member of the PHP community, speaker, and co-organizer of BCSPHP. He believes quality code, testing, and automation are necessary ingredients in a recipe for a successful software project. When not hacking away at code he is a father and husband, beer and Scotch enthusiast, and an amateur photographer. Follow Jeff on Twitter as jcarouth or read his blog at http://carouth.com
-    avatar: http://2014.sunshinephp.com/img/speakers/jeff_carouth.jpg
+  'Evan Coury':
+    bio: Evan Coury is a core contributor and long-time user of Zend Framework who is perhaps most well known in the community for authoring the all-new ZF2 module system. He is currently a professional software architect and consultant. In addition to consulting and his open source contributions, Evan is also the owner of Roave, a PHP and Zend Framework consulting and development company which employs some of the most talented developers in the PHP community.
+    avatar: http://2015.sunshinephp.com/img/speakers/evan_coury.jpg
     talks:
       -
-        title: Clean Code: Refactoring
+        title: Tuning Nginx And PHP-FPM The Right Way
+        room: Grand Ballroom
+        date: Friday
+        time: 14:45 - 15:45
+        desc: More and more large companies and websites are switching over to Nginx + PHP-FPM for increased performance and more efficient resource utilization. When properly tuned, this duo can be a perfect match for high traffic situations. However, it only takes one small oversight in the configuration to bring your site to a grinding halt under high load. Join Evan Coury, owner of Roave, as he shares all of his tips and tricks learned throughout years of high scalability consulting and running several extremely high traffic websites. We’ll cover how to optimally tune PHP-FPM worker pools, sysctl, and Nginx to get the most out of your servers. Additionally, we’ll cover adding additional capacity to handle traffic spikes, load balancing, and more.
+
+  'Sara Golemon':
+    bio:  Sara Golemon is a long standing contributor to the PHP runtime as well as the Open Source maintainer of HHVM and author of Extending and Embedding PHP.
+
+    avatar: http://2015.sunshinephp.com/img/speakers/sara_golemon.jpg
+    talks:
+      -
+        title: HHVM Basics
         room: 'Key Biscayne #2 (rear)'
         date: Friday
         time: 17:15 - 18:15
-        desc: There are very few "write once" applications in reality. As developers we must keep up with constant changes and evolution of problems and our code should reflect this. In this talk we will look at practical examples of code that is not "bad" code but needs a little attention. We will look at techniques for refactoring it to a more readable, understandable, and maintainable state.
+        desc: What is HHVM? Why does it matter to the average (or above average) PHP site? What benefits does switching to HHVM offer? These questions and more will be answered in one information packed hour.
 
-  'Jeremy Mikola':
-    bio: Jeremy Mikola is a software engineer at MongoDB's NYC office. As a member of the driver and evangelism team, he helps develop the PHP driver and contributes to various OSS projects, such as Doctrine ODM, Symfony2 and Zend Framework. Previously, Jeremy helped build great things with Symfony2, MongoDB, and a handful of other interesting technologies at OpenSky and Exercise.com.
-    avatar: http://2014.sunshinephp.com/img/speakers/jeremy_mikola.jpg
+  'Wim Godden':
+    bio: Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as OpenX and PHPCompatibility. Next to web development, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.
+    avatar: http://2015.sunshinephp.com/img/speakers/wim_godden.png
     talks:
       -
-        title: Doctrine, Object Persistence, and You
+        title: 'Tutorial: My App Is Secure...I Think'
+        room: 'Key Biscayne #1 (front)'
+        date: Thursday
+        time: 13:00 – 16:00
+        desc: With more and more sites falling victim to data theft, you've probably read the list of things (not) to do to write secure code. But what else should you do to make sure your code and the rest of your web stack is secure ? In this tutorial we'll go through the basic and more advanced techniques of securing your web and database servers, securing your backend PHP code and your frontend javascript code. We'll also look at how you can build code that detects and blocks intrusion attempts and a bunch of other tips and tricks to make sure your customer data stays secure.
+      -
+        title: Beyond PHP: It's Not (just) About The Code!
         room: Grand Ballroom
         date: Saturday
-        time: 16:00 – 17:00
-        desc: Doctrine has come a long way from its humble beginnings as an active record ORM for SQL databases. After an overview of relevant design patterns, we'll discuss the practical benefits (and caveats) of managed object persistence in Doctrine ORM and the newer Non-SQL ODMs, look at data modeling via its widely used annotation library, and explore APIs for persistence and query services. Finally, we'll survey other projects in the family, such as lower-level database and cache abstractions.
+        time: 14:45 - 15:45
+        desc: Most PHP developers focus on writing code. But creating Web applications is about much more than just writing PHP. Take a step outside the PHP cocoon and into the big PHP ecosphere to find out how small code changes can make a world of difference on servers and network. This talk is an eye-opener for developers who spend over 80% of their time coding, debugging and testing.
 
-  'Keith Casey':
-    bio: Keith Casey, a recovering Developer Evangelist for Twilio, currently serves as an API Designer working to make APIs more consistent, easier, and help solve real world problems. In his spare time, he is a core contributor to web2project, works to build and support the Austin technology community, blogs occasionally at CaseySoftware.com and is completely fascinated by monkeys. He's also the author of the upcoming book "A Pragmatic Approach to API Design" https://leanpub.com/restful-api-design from Leanpub.
+  'Beth Tucker Long':
+    bio: Beth Tucker Long is a PHP developer and advocate at Code Climate (http://www.codeclimate.com) and co-organizer of Madison PHP (http://www.madisonphp.com). You can find her on Twitter (@e3betht) or on her blog (http://www.alittleofboth.com). She runs Treeline Design (http://www.treelinedesign.com), a web development company, and Playlist Event Music - (http://www.playlisteventmusic.com), a DJ company, along with her husband, Chris.
 
-    avatar: http://2014.sunshinephp.com/img/speakers/casey_keith.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/beth_tucker_long.png
     talks:
       -
-        title: 'Tutorial: Continuous Integration in PHP'
-        room: 'Key Largo #4'
-        date: Thursday
-        time: 09:00 - 12:00
-        desc: As we move to the cloud, scaling, deployment, and operations in general become a fundamentally different kind of problem. Deploying an update via ftp or even resync simply doesn't work anymore. Continuous Integration and eventually Continuous Deployment are the only approaches that keeps the code and our projects moving in one direction. This presentation will cover the major considerations in putting together your own PHP-based Continuous Integration environment and porting your first application.
+        title: 'CMSMadeSimple: Simple For You, Simple For Your Customers'
+        room: 'Key Biscayne #1 (front)'
+        date: Friday
+        time: 10:15 - 11:15
+        desc: Tired of trying to convert HTML/CSS files into a theme for WordPress? Frustrated with teaching non-technical users to use the Drupal admin panel? CMSMadeSimple is quick to install, very easy to theme, and a breeze for non-technical users to manage with their clean, easy-to-learn admin panel. You can write blocks of custom PHP code that are run using Smarty-like tags, so your users can add code to their pages without ever seeing the PHP (or breaking it). Add to this, a library of modules that are installed with the click of a button in the admin panel, and CMSMadeSimple is a clear winner! Learn how to install, theme, and expand CMSMadeSimple, going from "nothing" to "ready to deliver" in the span of this single talk.
 
   'Larry Garfield':
     bio: |
-         Larry Garfield has been building web sites since he was a sophomore in high school, which is longer ago than he'd like to admit. As a freelancer he worked mostly for Chicago-area politicians before graduating to full time consulting with Palantir.net.
+        Larry Garfield has been building web sites since he was a sophomore in high school, which is longer ago than he'd like to admit. As a freelancer he worked mostly for Chicago-area politicians before graduating to full time consulting with Palantir.net.
 
-         At Palantir, Larry is a Senior Architect and Community Lead, developing solutions for medium to large cultural and educational institutions. He also works to represent both Palantir and Drupal in the broader developer community.
+        At Palantir, Larry is a Senior Architect and Community Lead, developing solutions for medium to large cultural and educational institutions. He also works to represent both Palantir and Drupal in the broader developer community.
 
-         Larry is an active Drupal core contributor, including the principle architect of the Drupal 7 database system and the Drupal 8 Web Services Lead. He is also a member of the Advisory Board of the Drupal Association. Larry holds a Master’s degree in Computer Science from DePaul University.
+        Larry is an active Drupal core contributor, including the principle architect of the Drupal 7 database system and the Drupal 8 Web Services Lead. He is also a member of the Advisory Board of the Drupal Association. Larry holds a Master’s degree in Computer Science from DePaul University.
 
-         Larry is a co-author of "Drupal 7 Module Development" from Packt Publishing. He blogs at both http://www.palantir.net/ and http://www.garfieldtech.com/.
+        Larry is a co-author of "Drupal 7 Module Development" from Packt Publishing. He blogs at both http://www.palantir.net/ and http://www.garfieldtech.com/.
 
-    avatar: http://2014.sunshinephp.com/img/speakers/larry_garfield.JPG
+
+    avatar: http://2015.sunshinephp.com/img/speakers/larry_garfield.jpg
     talks:
       -
-        title: Day 2 Opening Keynote
+        title: 'Drupal 8: The Crash Course'
         room: Grand Ballroom
         date: Saturday
         time: 09:00 - 10:00
         desc: |
-            Open Source, PHP, and PIE.
+            One of the most widely-used and mature Content Management Systems on the planet, Drupal runs more than one in fifty websites in the world. However, it has always been something of an odd duck, with an architecture and design very different than anything else in PHP. Enter Drupal 8: Almost a complete rewrite under the hood, Drupal 8 is a modern, PHP 5.4-boasting, REST-capable, object-oriented powerhouse. Now leveraging 3rd party components from no less than 9 different projects, Drupal 8 aims to be the premiere Content Management Platform for PHP. But how do you use all this new-fangled stuff? This session will provide a walkthrough of Drupal's key systems and APIs, intended to give developers a taste of what building with Drupal 8 will be like. Prior familiarity with Drupal 7 is helpful but will not be assumed.
+
 
   'Paul M. Jones':
-    bio:  Paul is an internationally recognized PHP expert who has worked as everything from junior developer to VP of Engineering in all kinds of organizations (corporate, military, non-profit, educational, medical, and others). Paul's latest open-source project is the Aura project for PHP. Among his other accomplishments, Paul is the lead developer of the Solar Framework, and the creator of the Savant template system. He has authored a series of authoritative benchmarks on dynamic framework performance, and was a founding contributor to the Zend Framework (the DB, DB_Table, and View components). In a previous career, Paul was an intelligence operations specialist for the US Air Force, and enjoys putting .308 holes in targets at 400 yards.
+    bio:  Paul M. Jones is an internationally recognized PHP expert, working in that language since 1999, and programming in general since 1983. He has held roles from junior developer to VP of Engineering in all kinds of organizations (corporate, military, non-profit, educational, medical, and others). He is a regular speaker at technical conferences worldwide. As the author of Modernizing Legacy Applications in PHP Paul takes a special interest in high-quality high-maintainability coding practices. His latest open-source project, Aura for PHP, reflects this interest. Among his other open-source work, Paul was the architect of of the Solar Framework and the creator of the Savant template system. He has authored a series of authoritative benchmarks on dynamic framework performance. He was a founding contributor to the Zend Framework (the DB, DB_Table, and View components). Paul is a voting member of the PHP Framework Interoperability Group, and was the driving force behind the PSR-1 Coding Standard, PSR-2 Style Guide, and PSR-4 Autoloader recommendations. He was one of the first elected members of the PEAR Project. He was also a member of the Zend PHP 5.3 Certification education advisory board, and wrote some of the questions on that test. In a previous career, Paul was an operations intelligence specialist for the US Air Force, and enjoys putting .308 holes in targets at 400 yards.
 
-    avatar: http://2014.sunshinephp.com/img/speakers/paul_m_jones.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/paul_jones.jpg
     talks:
       -
-        title: Decoupled library packages for PHP 5.4
+        title: Keynote
         room: Grand Ballroom
-        date: Friday
-        time: 14:45 - 15:45
-        desc: This talk discusses how to develop decoupled library packages using dependency injection. It gives an overview of the Aura project, a collection of independent (non-framework) library packages providing commonly-needed tools for developers. The talk includes a discussion of the benefits of dependency injection when removing dependencies.
-
+        date: Saturday
+        time: 9:00 - 10:00
+        desc: Same Thing Happens Every Time.
 
   'Rasmus Lerdorf':
     bio:  Rasmus Lerdorf is known for having gotten the PHP project off the ground in 1995 and has contributed to a number of other open source projects over the years. He spent 7 years at Yahoo and has since worked for and consulted with various startups. He was born in Greenland, grew up in Denmark and Canada and has a Systems Design engineering degree from the University of Waterloo.
 
-    avatar: http://2014.sunshinephp.com/img/speakers/rasmus_lerdorf.jpg
+    avatar: http://2015.sunshinephp.com/img/speakers/rasmus_lerdorf.jpg
     talks:
       -
-        title: After-Lunch Keynote
+        title: Keynote
         room: Grand Ballroom
         date: Friday
-        time:  13:30 - 14:30
-        desc: TBA
+        time: 9:00 - 10:00
+        desc: PHP and teams, it's good chemistry!
 
-  'Rowan Merewood':
-    bio: In the past decade of working with the web, Rowan's touched on everything through from little forum sites to multi-million pound billing engines with a variety of languages like PHP, Python, Perl and a few beginning with other letters. He is currently moving from being a Technical Team Lead at Inviqa and heading down to London for a new adventure with Google as a Developer Advocate. Outside of technology, feel free to talk to him about trashy horror films and introductions to exciting cocktails.
-    avatar: http://2014.sunshinephp.com/img/speakers/rowan_merewood.jpg
+  'Poornima Vijayashanker':
+    bio: Poornima Vijayashanker is currently the founder at Femgineer, an education startup that empowers engineers, founders, and product leads to transform their ideas into tangible, high-impact products. She has been a lecturer at Duke University's Pratt School of Engineering and an entrepreneur-in-residence at 500 Startups. Poornima was the founding engineer at Mint.com, where she helped build, launch, and scale the product until its acquisition in 2009. When she's not building products or companies she enjoys Bikram yoga, rock climbing, and running. Poornima lives in sunny Palo Alto, CA with her boyfriend and two cats: Colby Jack and Riley.
+
+    avatar: http://2015.sunshinephp.com/img/speakers/poornima_vijayashanker.jpg
     talks:
       -
-        title: Algorithm, Review, Sorting
-        room: 'Key Biscayne #1 (front)'
+        title: 'Keynote: How a team can make or break a startup'
+        room: 'Grand Ballroom'
         date: Friday
-        time: 17:15 - 18:15
-        desc: High-level languages and platforms abstract away basic computer science problems so we can code quicker and not re-invent the wheel. That said, algorithms are too much fun to just leave as a black box. We'll learn how to analyse and compare sorting algorithms with live demos and visualisations. With an algorithm from the 1800s, it could even be a history lesson too.
-      -
-        title: Building better developers
-        room: 'Key Biscayne #1 (front)'
-        date: Saturday
-        time: 11:30 - 12:30
-        desc: Thankfully, "rockstar" and "ninja" are now dirty words when it comes to describing developers. It's not about being a superhero, it's about simple, achievable steps to change the way you work. This talk collects together some personal favourite hints and hacks for improving how you approach software engineering. We'll dive into the Quake 3 source code, the Linux kernel mailing list and discover the One True Editor along the way.
+        time: 13:30 - 14:30
+        desc: How a team can make or break a startup.
