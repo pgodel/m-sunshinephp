@@ -480,7 +480,7 @@ speakers:
     talks:
       -
         title: 'Drupal 8: The Crash Course'
-        room: Grand Ballroom
+        room: 'Key Biscayne #1 (front)'
         date: Saturday
         time: 11:30 - 12:30
         desc: |
