@@ -331,7 +331,7 @@ speakers:
     talks:
       -
         title: REST API Best Practices
-        room: 'Key Biscayne #1 (front)'
+        room: 'Key Biscayne #2 (rear)'
         date: Saturday
         time: 11:30 - 12:30
         desc: |
@@ -431,7 +431,7 @@ speakers:
     talks:
       -
         title: HHVM Basics
-        room: 'Key Biscayne #2 (rear)'
+        room: 'Grand Ballroom'
         date: Saturday
         time: 11:30 - 12:30
         desc: What is HHVM? Why does it matter to the average (or above average) PHP site? What benefits does switching to HHVM offer? These questions and more will be answered in one information packed hour.
